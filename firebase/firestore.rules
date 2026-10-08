@@ -1,0 +1,21 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /strands-themes/{themeId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /strands-progress/{userId} {
+      allow read, create, update: if request.auth != null && request.auth.uid == userId;
+      allow delete: if false;
+    }
+
+    match /leaderboard-zatamgame/{recordId} {
+      allow read: if true;
+      allow create, update: if request.auth != null
+        && request.resource.data.userId == request.auth.uid;
+      allow delete: if false;
+    }
+  }
+}

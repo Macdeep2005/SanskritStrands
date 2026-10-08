@@ -1,0 +1,3387 @@
+[
+  {
+    "id": "devotion",
+    "order": 1,
+    "titleSanskrit": "पूजा",
+    "titleEnglish": "Devotion",
+    "clue": "Find the Sanskrit words in the devotion theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "ग",
+    "difficulty": "Beginner",
+    "difficultySanskrit": "आरम्भिकः",
+    "pathDifficulty": "starter",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "ग",
+        "मः",
+        "शि",
+        "वः",
+        "मः",
+        "णे"
+      ],
+      [
+        "स",
+        "मः",
+        "स",
+        "स",
+        "वः",
+        "ग"
+      ],
+      [
+        "ष्णः",
+        "स्व",
+        "र",
+        "र",
+        "मः",
+        "शः"
+      ],
+      [
+        "कृ",
+        "स",
+        "स",
+        "स्व",
+        "ग",
+        "णे"
+      ],
+      [
+        "र",
+        "वः",
+        "र",
+        "ती",
+        "मः",
+        "रा"
+      ],
+      [
+        "ती",
+        "ती",
+        "कृ",
+        "मः",
+        "स",
+        "वः"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "गणेशः",
+        "transliteration": "gaṇeśaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u01.mp3",
+        "tokens": [
+          "ग",
+          "णे",
+          "शः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 5
+          },
+          {
+            "row": 2,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "रामः",
+        "transliteration": "rāmaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u02.mp3",
+        "tokens": [
+          "रा",
+          "मः"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 5
+          },
+          {
+            "row": 4,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "कृष्णः",
+        "transliteration": "kr̥ṣṇaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u03.mp3",
+        "tokens": [
+          "कृ",
+          "ष्णः"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 0
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "शिवः",
+        "transliteration": "śivaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u04.mp3",
+        "tokens": [
+          "शि",
+          "वः"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 0,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "सरस्वती",
+        "transliteration": "sarasvatī",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u05.mp3",
+        "tokens": [
+          "स",
+          "र",
+          "स्व",
+          "ती"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 4,
+            "col": 3
+          }
+        ],
+        "spangram": true
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 3,
+    "themeWordPoints": 15,
+    "spangramPoints": 40,
+    "completionPoints": 100,
+    "maxSpeedBonus": 100,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 10,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "school_people",
+    "order": 2,
+    "titleSanskrit": "विद्यालयजनाः",
+    "titleEnglish": "School People",
+    "clue": "Find the Sanskrit words in the school people theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "वि",
+    "difficulty": "Beginner",
+    "difficultySanskrit": "आरम्भिकः",
+    "pathDifficulty": "two-direction",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "ध्या",
+        "छा",
+        "का",
+        "प",
+        "अ",
+        "बा"
+      ],
+      [
+        "त्रः",
+        "लि",
+        "कः",
+        "ध्या",
+        "कः",
+        "का"
+      ],
+      [
+        "बा",
+        "पि",
+        "बा",
+        "पि",
+        "पि",
+        "अ"
+      ],
+      [
+        "ल",
+        "ल",
+        "ल",
+        "का",
+        "ध्या",
+        "द्या"
+      ],
+      [
+        "त्रः",
+        "यः",
+        "कः",
+        "द्या",
+        "अ",
+        "द्या"
+      ],
+      [
+        "द्या",
+        "छा",
+        "का",
+        "ध्या",
+        "वि",
+        "कः"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "विद्यालयः",
+        "transliteration": "vidyālayaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u04.mp3",
+        "tokens": [
+          "वि",
+          "द्या",
+          "ल",
+          "यः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 4
+          },
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 4,
+            "col": 1
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "बालकः",
+        "transliteration": "bālakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u05.mp3",
+        "tokens": [
+          "बा",
+          "ल",
+          "कः"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 0
+          },
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "अध्यापकः",
+        "transliteration": "adhyāpakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/u05.mp3",
+        "tokens": [
+          "अ",
+          "ध्या",
+          "प",
+          "कः"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 3
+          },
+          {
+            "row": 0,
+            "col": 3
+          },
+          {
+            "row": 1,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "छात्रः",
+        "transliteration": "chātraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/26u05.mp3",
+        "tokens": [
+          "छा",
+          "त्रः"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 0
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "बालिका",
+        "transliteration": "bālikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u09.mp3",
+        "tokens": [
+          "बा",
+          "लि",
+          "का"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 0,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "अध्यापिका",
+        "transliteration": "adhyāpikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u08.mp3",
+        "tokens": [
+          "अ",
+          "ध्या",
+          "पि",
+          "का"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 3,
+    "themeWordPoints": 15,
+    "spangramPoints": 40,
+    "completionPoints": 100,
+    "maxSpeedBonus": 110,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 10,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "professions",
+    "order": 3,
+    "titleSanskrit": "व्यवसायाः",
+    "titleEnglish": "Professions",
+    "clue": "Find the Sanskrit words in the professions theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "क्री",
+    "difficulty": "Beginner",
+    "difficultySanskrit": "आरम्भिकः",
+    "pathDifficulty": "two-direction",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "द्या",
+        "तः",
+        "पि",
+        "क्री",
+        "क्ष",
+        "कः"
+      ],
+      [
+        "ड",
+        "ना",
+        "कः",
+        "कः",
+        "आ",
+        "र"
+      ],
+      [
+        "का",
+        "ड",
+        "क्री",
+        "ल्प",
+        "द्या",
+        "ल्प"
+      ],
+      [
+        "द्या",
+        "द्या",
+        "वै",
+        "शि",
+        "का",
+        "शि"
+      ],
+      [
+        "रः",
+        "कः",
+        "द्या",
+        "पा",
+        "कः",
+        "रः"
+      ],
+      [
+        "पा",
+        "द्या",
+        "वै",
+        "र",
+        "च",
+        "च"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "क्रीडकः",
+        "transliteration": "kr̥īḍakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/u06.mp3",
+        "tokens": [
+          "क्री",
+          "ड",
+          "कः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "नापितः",
+        "transliteration": "nāpitaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u02.mp3",
+        "tokens": [
+          "ना",
+          "पि",
+          "तः"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 0,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "शिल्पकारः",
+        "transliteration": "śilpakāraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u03.mp3",
+        "tokens": [
+          "शि",
+          "ल्प",
+          "का",
+          "रः"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 4,
+            "col": 5
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "पाचकः",
+        "transliteration": "pācakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u04.mp3",
+        "tokens": [
+          "पा",
+          "च",
+          "कः"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 5,
+            "col": 4
+          },
+          {
+            "row": 4,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "आरक्षकः",
+        "transliteration": "ārakṣakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u05.mp3",
+        "tokens": [
+          "आ",
+          "र",
+          "क्ष",
+          "कः"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 5
+          },
+          {
+            "row": 0,
+            "col": 4
+          },
+          {
+            "row": 0,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "वैद्या",
+        "transliteration": "vaidyā",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u09.mp3",
+        "tokens": [
+          "वै",
+          "द्या"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 3,
+    "themeWordPoints": 15,
+    "spangramPoints": 40,
+    "completionPoints": 100,
+    "maxSpeedBonus": 120,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 10,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "daily_objects",
+    "order": 4,
+    "titleSanskrit": "दैनन्दिनवस्तूनि",
+    "titleEnglish": "Everyday Objects",
+    "clue": "Find the Sanskrit words in the everyday objects theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "द",
+    "difficulty": "Intermediate",
+    "difficultySanskrit": "मध्यमः",
+    "pathDifficulty": "two-direction",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "क्रि",
+        "द",
+        "र्प",
+        "का",
+        "क्रि",
+        "कु"
+      ],
+      [
+        "द",
+        "कः",
+        "कु",
+        "णः",
+        "का",
+        "ञ्चि"
+      ],
+      [
+        "ष",
+        "सः",
+        "का",
+        "णः",
+        "द",
+        "द्वि"
+      ],
+      [
+        "म",
+        "च",
+        "का",
+        "र्प",
+        "च",
+        "द"
+      ],
+      [
+        "च",
+        "च",
+        "क",
+        "क्रि",
+        "कु",
+        "टी"
+      ],
+      [
+        "म्",
+        "क",
+        "न्दु",
+        "ञ्चि",
+        "घ",
+        "ञ्चि"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "दर्पणः",
+        "transliteration": "drapaṇaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp04/u01.mp3",
+        "tokens": [
+          "द",
+          "र्प",
+          "णः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 1
+          },
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "चषकः",
+        "transliteration": "caṣakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp04/u02.mp3",
+        "tokens": [
+          "च",
+          "ष",
+          "कः"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 2,
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "चमसः",
+        "transliteration": "camasaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp04/u03.mp3",
+        "tokens": [
+          "च",
+          "म",
+          "सः"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 3,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "कुञ्चिका",
+        "transliteration": "kuṇcikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp04/u04.mp3",
+        "tokens": [
+          "कु",
+          "ञ्चि",
+          "का"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 5
+          },
+          {
+            "row": 1,
+            "col": 5
+          },
+          {
+            "row": 1,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "द्विचक्रिका",
+        "transliteration": "dvicakrikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp04/u06.mp3",
+        "tokens": [
+          "द्वि",
+          "च",
+          "क्रि",
+          "का"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 2
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "घटी",
+        "transliteration": "ghaṭī",
+        "audioPath": "https://zat.am/bp26/imgs/bp04/u09.mp3",
+        "tokens": [
+          "घ",
+          "टी"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 4
+          },
+          {
+            "row": 4,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "कन्दुकम्",
+        "transliteration": "kandukam",
+        "audioPath": "https://zat.am/bp26/imgs/bp04/u10.mp3",
+        "tokens": [
+          "क",
+          "न्दु",
+          "क",
+          "म्"
+        ],
+        "id": "w7",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 5,
+            "col": 0
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 2,
+    "themeWordPoints": 20,
+    "spangramPoints": 50,
+    "completionPoints": 100,
+    "maxSpeedBonus": 130,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 15,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "school_supplies",
+    "order": 5,
+    "titleSanskrit": "विद्यालयवस्तूनि",
+    "titleEnglish": "School Supplies",
+    "clue": "Find the Sanskrit words in the school supplies theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "आ",
+    "difficulty": "Intermediate",
+    "difficultySanskrit": "मध्यमः",
+    "pathDifficulty": "multi-bend",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "ङ्क",
+        "ख",
+        "म्",
+        "स",
+        "स्त",
+        "म्"
+      ],
+      [
+        "ख",
+        "ले",
+        "पि",
+        "क",
+        "पु",
+        "क"
+      ],
+      [
+        "नी",
+        "स",
+        "ण",
+        "ग्र",
+        "ङ्क",
+        "अ"
+      ],
+      [
+        "ङ्ग",
+        "आ",
+        "ङ्ग",
+        "ग्र",
+        "नी",
+        "ल"
+      ],
+      [
+        "का",
+        "मा",
+        "मा",
+        "आ",
+        "न्था",
+        "यः"
+      ],
+      [
+        "अ",
+        "पि",
+        "का",
+        "स",
+        "स",
+        "न्दः"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "आसन्दः",
+        "transliteration": "āsandaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp05/u01.mp3",
+        "tokens": [
+          "आ",
+          "स",
+          "न्दः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 5,
+            "col": 4
+          },
+          {
+            "row": 5,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "ग्रन्थालयः",
+        "transliteration": "granthālayaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp05/u11.mp3",
+        "tokens": [
+          "ग्र",
+          "न्था",
+          "ल",
+          "यः"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 4,
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 5
+          },
+          {
+            "row": 4,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "मापिका",
+        "transliteration": "māpikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp05/u03.mp3",
+        "tokens": [
+          "मा",
+          "पि",
+          "का"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 0
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "अङ्कनी",
+        "transliteration": "ankanī",
+        "audioPath": "https://zat.am/bp26/imgs/bp05/u05.mp3",
+        "tokens": [
+          "अ",
+          "ङ्क",
+          "नी"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 2,
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "लेखनी",
+        "transliteration": "lekhanī",
+        "audioPath": "https://zat.am/bp26/imgs/bp05/u06.mp3",
+        "tokens": [
+          "ले",
+          "ख",
+          "नी"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 0
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "सङ्गणकम्",
+        "transliteration": "sangaṇakam",
+        "audioPath": "https://zat.am/bp26/imgs/bp05/u09.mp3",
+        "tokens": [
+          "स",
+          "ङ्ग",
+          "ण",
+          "क",
+          "म्"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 1
+          },
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 3
+          },
+          {
+            "row": 0,
+            "col": 2
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "पुस्तकम्",
+        "transliteration": "pustakam",
+        "audioPath": "https://zat.am/bp26/imgs/bp05/u10.mp3",
+        "tokens": [
+          "पु",
+          "स्त",
+          "क",
+          "म्"
+        ],
+        "id": "w7",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 4
+          },
+          {
+            "row": 0,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 5
+          },
+          {
+            "row": 0,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 2,
+    "themeWordPoints": 20,
+    "spangramPoints": 50,
+    "completionPoints": 100,
+    "maxSpeedBonus": 140,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 15,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "travel_things",
+    "order": 6,
+    "titleSanskrit": "यात्रावस्तूनि",
+    "titleEnglish": "Travel & Useful Things",
+    "clue": "Find the Sanskrit words in the travel & useful things theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "नौ",
+    "difficulty": "Intermediate",
+    "difficultySanskrit": "मध्यमः",
+    "pathDifficulty": "multi-bend",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "वि",
+        "मा",
+        "नौ",
+        "का",
+        "द्वा",
+        "द्वा"
+      ],
+      [
+        "न",
+        "वि",
+        "म्",
+        "र",
+        "द",
+        "न"
+      ],
+      [
+        "च",
+        "म्",
+        "छ",
+        "का",
+        "नौ",
+        "न्त"
+      ],
+      [
+        "क्र",
+        "म्",
+        "र्या",
+        "म्",
+        "कू",
+        "र्चः"
+      ],
+      [
+        "र",
+        "म्",
+        "न",
+        "म्",
+        "म्",
+        "द"
+      ],
+      [
+        "कू",
+        "म्",
+        "नौ",
+        "कू",
+        "त्र",
+        "छ"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "नौका",
+        "transliteration": "naukā",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/u09.mp3",
+        "tokens": [
+          "नौ",
+          "का"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 0,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "द्वारम्",
+        "transliteration": "dvāram",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u11.mp3",
+        "tokens": [
+          "द्वा",
+          "र",
+          "म्"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 3
+          },
+          {
+            "row": 1,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "छत्रम्",
+        "transliteration": "chatraṁ",
+        "audioPath": "https://zat.am/bp26/imgs/bp06/u08.mp3",
+        "tokens": [
+          "छ",
+          "त्र",
+          "म्"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 5
+          },
+          {
+            "row": 5,
+            "col": 4
+          },
+          {
+            "row": 4,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "कार्यानम्",
+        "transliteration": "kāryānam",
+        "audioPath": "https://zat.am/bp26/imgs/bp06/u09.mp3",
+        "tokens": [
+          "का",
+          "र्या",
+          "न",
+          "म्"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 4,
+            "col": 1
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "विमानम्",
+        "transliteration": "vimānam",
+        "audioPath": "https://zat.am/bp26/imgs/bp06/u10.mp3",
+        "tokens": [
+          "वि",
+          "मा",
+          "न",
+          "म्"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 0
+          },
+          {
+            "row": 0,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "चक्रम्",
+        "transliteration": "cakram",
+        "audioPath": "https://zat.am/bp26/imgs/bp06/u11.mp3",
+        "tokens": [
+          "च",
+          "क्र",
+          "म्"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 0
+          },
+          {
+            "row": 3,
+            "col": 0
+          },
+          {
+            "row": 3,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "दन्तकूर्चः",
+        "transliteration": "dantakūrcaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/u04.mp3",
+        "tokens": [
+          "द",
+          "न्त",
+          "कू",
+          "र्चः"
+        ],
+        "id": "w7",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 2,
+    "themeWordPoints": 20,
+    "spangramPoints": 50,
+    "completionPoints": 100,
+    "maxSpeedBonus": 150,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 15,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "home_things",
+    "order": 7,
+    "titleSanskrit": "गृहवस्तूनि",
+    "titleEnglish": "Home Things",
+    "clue": "Find the Sanskrit words in the home things theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "क",
+    "difficulty": "Intermediate",
+    "difficultySanskrit": "मध्यमः",
+    "pathDifficulty": "multi-bend",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "म्",
+        "ण",
+        "वा",
+        "का",
+        "लि",
+        "ज"
+      ],
+      [
+        "य",
+        "ता",
+        "त्रा",
+        "पे",
+        "व",
+        "स्था"
+      ],
+      [
+        "न",
+        "द",
+        "ग्नि",
+        "का",
+        "टि",
+        "नि"
+      ],
+      [
+        "म्",
+        "पा",
+        "ओ",
+        "अ",
+        "का",
+        "क"
+      ],
+      [
+        "क्थ",
+        "सि",
+        "र्ति",
+        "द",
+        "र",
+        "दी"
+      ],
+      [
+        "पा",
+        "व",
+        "का",
+        "न",
+        "म्",
+        "पः"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "करदीपः",
+        "transliteration": "karadīpaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u01.mp3",
+        "tokens": [
+          "क",
+          "र",
+          "दी",
+          "पः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 5
+          },
+          {
+            "row": 4,
+            "col": 4
+          },
+          {
+            "row": 4,
+            "col": 5
+          },
+          {
+            "row": 5,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "जवनिका",
+        "transliteration": "javanikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u03.mp3",
+        "tokens": [
+          "ज",
+          "व",
+          "नि",
+          "का"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 5
+          },
+          {
+            "row": 1,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "सिक्थवर्तिका",
+        "transliteration": "sikthavartikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u04.mp3",
+        "tokens": [
+          "सि",
+          "क्थ",
+          "व",
+          "र्ति",
+          "का"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 0
+          },
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 2
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "अग्निपेटिका",
+        "transliteration": "agnipeṭikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u05.mp3",
+        "tokens": [
+          "अ",
+          "ग्नि",
+          "पे",
+          "टि",
+          "का"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "स्थालिका",
+        "transliteration": "sthālikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u06.mp3",
+        "tokens": [
+          "स्था",
+          "लि",
+          "का"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 5
+          },
+          {
+            "row": 0,
+            "col": 4
+          },
+          {
+            "row": 0,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "पादत्राणम्",
+        "transliteration": "pādatrāṇam",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u08.mp3",
+        "tokens": [
+          "पा",
+          "द",
+          "त्रा",
+          "ण",
+          "म्"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 2,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 0,
+            "col": 1
+          },
+          {
+            "row": 0,
+            "col": 0
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "वातायनम्",
+        "transliteration": "vātāyanam",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u11.mp3",
+        "tokens": [
+          "वा",
+          "ता",
+          "य",
+          "न",
+          "म्"
+        ],
+        "id": "w7",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 0
+          },
+          {
+            "row": 3,
+            "col": 0
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "ओदनम्",
+        "transliteration": "odanam",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u12.mp3",
+        "tokens": [
+          "ओ",
+          "द",
+          "न",
+          "म्"
+        ],
+        "id": "w8",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 5,
+            "col": 3
+          },
+          {
+            "row": 5,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 2,
+    "themeWordPoints": 20,
+    "spangramPoints": 50,
+    "completionPoints": 100,
+    "maxSpeedBonus": 160,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 15,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "animals",
+    "order": 8,
+    "titleSanskrit": "पशवः",
+    "titleEnglish": "Animals",
+    "clue": "Find the Sanskrit words in the animals theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "अ",
+    "difficulty": "Advanced",
+    "difficultySanskrit": "कठिनः",
+    "pathDifficulty": "multi-bend",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "र्जा",
+        "नः",
+        "रः",
+        "र्जा",
+        "रः",
+        "अ"
+      ],
+      [
+        "मा",
+        "रः",
+        "म",
+        "कः",
+        "ष",
+        "जः"
+      ],
+      [
+        "जः",
+        "र्मः",
+        "ष",
+        "क",
+        "मा",
+        "जः"
+      ],
+      [
+        "मी",
+        "कू",
+        "रः",
+        "मू",
+        "अ",
+        "अ"
+      ],
+      [
+        "र्मः",
+        "शु",
+        "न",
+        "श्वः",
+        "अ",
+        "श्वः"
+      ],
+      [
+        "मी",
+        "नः",
+        "मी",
+        "कः",
+        "क",
+        "मू"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "अश्वः",
+        "transliteration": "aśvaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u01.mp3",
+        "tokens": [
+          "अ",
+          "श्वः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 4,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "शुनकः",
+        "transliteration": "śunakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u02.mp3",
+        "tokens": [
+          "शु",
+          "न",
+          "कः"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 3
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "कूर्मः",
+        "transliteration": "kūrmaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp08/u03.mp3",
+        "tokens": [
+          "कू",
+          "र्मः"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 0
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "अजः",
+        "transliteration": "ajaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp08/u04.mp3",
+        "tokens": [
+          "अ",
+          "जः"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 5
+          },
+          {
+            "row": 1,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "मूषकः",
+        "transliteration": "mūṣakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp08/u05.mp3",
+        "tokens": [
+          "मू",
+          "ष",
+          "कः"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "मार्जारः",
+        "transliteration": "mārjāraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp08/u06.mp3",
+        "tokens": [
+          "मा",
+          "र्जा",
+          "रः"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 0,
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "मकरः",
+        "transliteration": "makaraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp08/u07.mp3",
+        "tokens": [
+          "म",
+          "क",
+          "रः"
+        ],
+        "id": "w7",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "मीनः",
+        "transliteration": "mīnaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp08/u08.mp3",
+        "tokens": [
+          "मी",
+          "नः"
+        ],
+        "id": "w8",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 2,
+    "themeWordPoints": 25,
+    "spangramPoints": 60,
+    "completionPoints": 100,
+    "maxSpeedBonus": 170,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 15,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "wild_animals",
+    "order": 9,
+    "titleSanskrit": "वन्यपशवः",
+    "titleEnglish": "Wild Animals",
+    "clue": "Find the Sanskrit words in the wild animals theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "व्या",
+    "difficulty": "Advanced",
+    "difficultySanskrit": "कठिनः",
+    "pathDifficulty": "multi-bend",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "न",
+        "र्पः",
+        "व्या",
+        "ष्ट्रः",
+        "हः",
+        "शः"
+      ],
+      [
+        "रि",
+        "र्पः",
+        "घ्रः",
+        "सिं",
+        "श",
+        "रा"
+      ],
+      [
+        "हः",
+        "स",
+        "सिं",
+        "उ",
+        "व",
+        "भ"
+      ],
+      [
+        "रि",
+        "हः",
+        "ष्ट्रः",
+        "कः",
+        "कः",
+        "ल्लू"
+      ],
+      [
+        "उ",
+        "रि",
+        "ह",
+        "वा",
+        "रः",
+        "व"
+      ],
+      [
+        "णः",
+        "रि",
+        "ह",
+        "भ",
+        "न",
+        "ष्ट्रः"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "व्याघ्रः",
+        "transliteration": "vyāghraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u01.mp3",
+        "tokens": [
+          "व्या",
+          "घ्रः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "शशः",
+        "transliteration": "śaśaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u02.mp3",
+        "tokens": [
+          "श",
+          "शः"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 4
+          },
+          {
+            "row": 0,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "सिंहः",
+        "transliteration": "simhaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u03.mp3",
+        "tokens": [
+          "सिं",
+          "हः"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "सर्पः",
+        "transliteration": "sarpaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u04.mp3",
+        "tokens": [
+          "स",
+          "र्पः"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "वानरः",
+        "transliteration": "vānaraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u05.mp3",
+        "tokens": [
+          "वा",
+          "न",
+          "रः"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 5,
+            "col": 4
+          },
+          {
+            "row": 4,
+            "col": 4
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "वराहः",
+        "transliteration": "varāhaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u06.mp3",
+        "tokens": [
+          "व",
+          "रा",
+          "हः"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 5
+          },
+          {
+            "row": 0,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "उष्ट्रः",
+        "transliteration": "uṣṭraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u07.mp3",
+        "tokens": [
+          "उ",
+          "ष्ट्रः"
+        ],
+        "id": "w7",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "भल्लूकः",
+        "transliteration": "bhallūkaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u08.mp3",
+        "tokens": [
+          "भ",
+          "ल्लू",
+          "कः"
+        ],
+        "id": "w8",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "हरिणः",
+        "transliteration": "hariṇaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u09.mp3",
+        "tokens": [
+          "ह",
+          "रि",
+          "णः"
+        ],
+        "id": "w9",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 5,
+            "col": 0
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 1,
+    "themeWordPoints": 25,
+    "spangramPoints": 60,
+    "completionPoints": 100,
+    "maxSpeedBonus": 180,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 15,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "nature",
+    "order": 10,
+    "titleSanskrit": "प्रकृतिः",
+    "titleEnglish": "Nature",
+    "clue": "Find the Sanskrit words in the nature theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "वृ",
+    "difficulty": "Advanced",
+    "difficultySanskrit": "कठिनः",
+    "pathDifficulty": "multi-bend",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "न्द्रः",
+        "पः",
+        "वृ",
+        "पः",
+        "पः",
+        "म्"
+      ],
+      [
+        "उ",
+        "क्षः",
+        "अ",
+        "ग्नि",
+        "कू",
+        "द्वी"
+      ],
+      [
+        "नी",
+        "म्",
+        "त्र",
+        "प",
+        "र्व",
+        "तः"
+      ],
+      [
+        "चा",
+        "डः",
+        "क्ष",
+        "न",
+        "न्द्रः",
+        "द्वी"
+      ],
+      [
+        "इ",
+        "पः",
+        "म्",
+        "न",
+        "द्या",
+        "च"
+      ],
+      [
+        "क्ष",
+        "न्द्र",
+        "चा",
+        "उ",
+        "वृ",
+        "न्द्र"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "वृक्षः",
+        "transliteration": "vr̥kṣaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u03.mp3",
+        "tokens": [
+          "वृ",
+          "क्षः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "चन्द्रः",
+        "transliteration": "candraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp10/u02.mp3",
+        "tokens": [
+          "च",
+          "न्द्रः"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "इन्द्रचापः",
+        "transliteration": "indracāpaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp10/u03.mp3",
+        "tokens": [
+          "इ",
+          "न्द्र",
+          "चा",
+          "पः"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 0
+          },
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 5,
+            "col": 2
+          },
+          {
+            "row": 4,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "अग्निपर्वतः",
+        "transliteration": "agniparvataḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp10/u04.mp3",
+        "tokens": [
+          "अ",
+          "ग्नि",
+          "प",
+          "र्व",
+          "तः"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 5
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "द्वीपः",
+        "transliteration": "dvīpaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp10/u05.mp3",
+        "tokens": [
+          "द्वी",
+          "पः"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 5
+          },
+          {
+            "row": 0,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "कूपः",
+        "transliteration": "kūpaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp10/u07.mp3",
+        "tokens": [
+          "कू",
+          "पः"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 4
+          },
+          {
+            "row": 0,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "नीडः",
+        "transliteration": "nīḍaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp10/u08.mp3",
+        "tokens": [
+          "नी",
+          "डः"
+        ],
+        "id": "w7",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 0
+          },
+          {
+            "row": 3,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "नक्षत्रम्",
+        "transliteration": "nakṣatram",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/u11.mp3",
+        "tokens": [
+          "न",
+          "क्ष",
+          "त्र",
+          "म्"
+        ],
+        "id": "w8",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "उद्यानम्",
+        "transliteration": "udyānam",
+        "audioPath": "https://zat.am/bp26/imgs/bp10/u10.mp3",
+        "tokens": [
+          "उ",
+          "द्या",
+          "न",
+          "म्"
+        ],
+        "id": "w9",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 3
+          },
+          {
+            "row": 4,
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 4,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 1,
+    "themeWordPoints": 25,
+    "spangramPoints": 60,
+    "completionPoints": 100,
+    "maxSpeedBonus": 190,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 15,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "birds",
+    "order": 11,
+    "titleSanskrit": "पक्षिणः",
+    "titleEnglish": "Birds",
+    "clue": "Find the Sanskrit words in the birds theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "म",
+    "difficulty": "Advanced",
+    "difficultySanskrit": "कठिनः",
+    "pathDifficulty": "multi-bend",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "का",
+        "कः",
+        "शु",
+        "तः",
+        "तः",
+        "क"
+      ],
+      [
+        "कः",
+        "पो",
+        "क",
+        "क्कु",
+        "कु",
+        "डः"
+      ],
+      [
+        "सः",
+        "तः",
+        "टः",
+        "लू",
+        "कः",
+        "रु"
+      ],
+      [
+        "हं",
+        "म",
+        "डः",
+        "उ",
+        "ग",
+        "शु"
+      ],
+      [
+        "उ",
+        "रः",
+        "यू",
+        "रः",
+        "कः",
+        "कि"
+      ],
+      [
+        "का",
+        "कः",
+        "शु",
+        "शु",
+        "लः",
+        "को"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "मयूरः",
+        "transliteration": "mayūraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/u01.mp3",
+        "tokens": [
+          "म",
+          "यू",
+          "रः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 4,
+            "col": 3
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "उलूकः",
+        "transliteration": "ulūkaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u02.mp3",
+        "tokens": [
+          "उ",
+          "लू",
+          "कः"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "कुक्कुटः",
+        "transliteration": "kukkuṭaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u03.mp3",
+        "tokens": [
+          "कु",
+          "क्कु",
+          "टः"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "कपोतः",
+        "transliteration": "kapotaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u04.mp3",
+        "tokens": [
+          "क",
+          "पो",
+          "तः"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 2,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "गरुडः",
+        "transliteration": "garuḍaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u05.mp3",
+        "tokens": [
+          "ग",
+          "रु",
+          "डः"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 1,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "हंसः",
+        "transliteration": "hamsaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u06.mp3",
+        "tokens": [
+          "हं",
+          "सः"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 3,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 0
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "काकः",
+        "transliteration": "kākaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u07.mp3",
+        "tokens": [
+          "का",
+          "कः"
+        ],
+        "id": "w7",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 0
+          },
+          {
+            "row": 5,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "कोकिलः",
+        "transliteration": "kokilaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u08.mp3",
+        "tokens": [
+          "को",
+          "कि",
+          "लः"
+        ],
+        "id": "w8",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 5
+          },
+          {
+            "row": 4,
+            "col": 5
+          },
+          {
+            "row": 5,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "शुकः",
+        "transliteration": "śukaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u09.mp3",
+        "tokens": [
+          "शु",
+          "कः"
+        ],
+        "id": "w9",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 3
+          },
+          {
+            "row": 4,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 1,
+    "themeWordPoints": 25,
+    "spangramPoints": 60,
+    "completionPoints": 100,
+    "maxSpeedBonus": 200,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 15,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  },
+  {
+    "id": "small_creatures",
+    "order": 12,
+    "titleSanskrit": "लघुजीवाः",
+    "titleEnglish": "Small Creatures",
+    "clue": "Find the Sanskrit words in the small creatures theme.",
+    "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
+    "icon": "वृ",
+    "difficulty": "Advanced",
+    "difficultySanskrit": "कठिनः",
+    "pathDifficulty": "multi-bend",
+    "rows": 6,
+    "cols": 6,
+    "grid": [
+      [
+        "श",
+        "कः",
+        "वृ",
+        "कः",
+        "श",
+        "भः"
+      ],
+      [
+        "म",
+        "श्चि",
+        "कः",
+        "म्बू",
+        "पि",
+        "ल"
+      ],
+      [
+        "कः",
+        "ङ्गः",
+        "त",
+        "टः",
+        "श",
+        "पी"
+      ],
+      [
+        "पी",
+        "प",
+        "र्क",
+        "का",
+        "लि",
+        "ङ्गः"
+      ],
+      [
+        "त्र",
+        "त्र",
+        "क",
+        "म",
+        "ना",
+        "ऊ"
+      ],
+      [
+        "कः",
+        "चि",
+        "भ्र",
+        "रः",
+        "भः",
+        "र्ण"
+      ]
+    ],
+    "targets": [
+      {
+        "word": "वृश्चिकः",
+        "transliteration": "vṛścikaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp12/u01.mp3",
+        "tokens": [
+          "वृ",
+          "श्चि",
+          "कः"
+        ],
+        "id": "w1",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 2
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "शलभः",
+        "transliteration": "śalabhaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp12/u02.mp3",
+        "tokens": [
+          "श",
+          "ल",
+          "भः"
+        ],
+        "id": "w2",
+        "meaning": "",
+        "path": [
+          {
+            "row": 0,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 5
+          },
+          {
+            "row": 0,
+            "col": 5
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "भ्रमरः",
+        "transliteration": "bhramaraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp12/u03.mp3",
+        "tokens": [
+          "भ्र",
+          "म",
+          "रः"
+        ],
+        "id": "w3",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 2
+          },
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 5,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "शम्बूकः",
+        "transliteration": "śambūkaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp12/u04.mp3",
+        "tokens": [
+          "श",
+          "म्बू",
+          "कः"
+        ],
+        "id": "w4",
+        "meaning": "",
+        "path": [
+          {
+            "row": 2,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 3
+          },
+          {
+            "row": 0,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "ऊर्णनाभः",
+        "transliteration": "ūrṇanābhaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp12/u06.mp3",
+        "tokens": [
+          "ऊ",
+          "र्ण",
+          "ना",
+          "भः"
+        ],
+        "id": "w5",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 5
+          },
+          {
+            "row": 5,
+            "col": 5
+          },
+          {
+            "row": 4,
+            "col": 4
+          },
+          {
+            "row": 5,
+            "col": 4
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "मशकः",
+        "transliteration": "maśakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp12/u07.mp3",
+        "tokens": [
+          "म",
+          "श",
+          "कः"
+        ],
+        "id": "w6",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 0,
+            "col": 0
+          },
+          {
+            "row": 0,
+            "col": 1
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "चित्रपतङ्गः",
+        "transliteration": "citrapatangaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp12/u08.mp3",
+        "tokens": [
+          "चि",
+          "त्र",
+          "प",
+          "त",
+          "ङ्गः"
+        ],
+        "id": "w7",
+        "meaning": "",
+        "path": [
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 1
+          }
+        ],
+        "spangram": true
+      },
+      {
+        "word": "कर्कटः",
+        "transliteration": "karkaṭaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp12/u09.mp3",
+        "tokens": [
+          "क",
+          "र्क",
+          "टः"
+        ],
+        "id": "w8",
+        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      },
+      {
+        "word": "पिपीलिका",
+        "transliteration": "pipīlikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp12/u10.mp3",
+        "tokens": [
+          "पि",
+          "पी",
+          "लि",
+          "का"
+        ],
+        "id": "w9",
+        "meaning": "",
+        "path": [
+          {
+            "row": 1,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 3
+          }
+        ],
+        "spangram": false
+      }
+    ],
+    "bonusWords": [],
+    "startingHints": 1,
+    "themeWordPoints": 25,
+    "spangramPoints": 60,
+    "completionPoints": 100,
+    "maxSpeedBonus": 210,
+    "speedBonusLossPerMinute": 15,
+    "hintPenalty": 15,
+    "background": "linear-gradient(135deg,#fff7e8 0%,#edf8ff 52%,#f2f8e9 100%)"
+  }
+]

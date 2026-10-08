@@ -1,0 +1,83 @@
+@media (max-width: 1020px) {
+  .portal-body { grid-template-columns: 205px minmax(0, 1fr); }
+  .game-grid { grid-template-columns: 1fr; }
+  .word-panel { min-height: auto; }
+  .discovery-list { max-height: none; }
+  .theme-card { grid-template-columns: 24px 42px 1fr 18px; }
+  .theme-number { display: none; }
+}
+
+@media (max-width: 760px) {
+  .portal-game-shell { height: auto; min-height: 100dvh; overflow: visible; }
+  .portal-topbar { min-height: 70px; flex: 0 0 auto; padding: 8px 10px; }
+  .brand-copy { display: none; }
+  .strand-logo { width: 41px; height: 41px; }
+  .back-btn { min-width: 42px; padding: 0 9px; }
+  .back-btn span { display: none; }
+  .top-stats { gap: 5px; }
+  .stat { min-width: 66px; padding: 4px 8px; }
+  .stat small { display: none; }
+  .login-btn { max-width: 104px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  .portal-body { display: flex; flex-direction: column; }
+  .theme-sidebar { height: 128px; flex: 0 0 128px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .side-head { display: none; }
+  .theme-scroll { display: flex; overflow-x: auto; overflow-y: hidden; padding: 9px 10px; gap: 8px; }
+  .theme-card { min-width: 190px; min-height: 106px; grid-template-columns: 42px 1fr 18px; padding: 9px; }
+  .theme-number { display: none; }
+  .theme-card-copy em { font-size: .62rem; }
+
+  .game-main { overflow: visible; padding: 10px; }
+  .theme-banner { padding: 12px 14px; border-radius: 17px; align-items: flex-start; }
+  .theme-banner h1 { font-size: 1.34rem; }
+  .theme-banner h1 span { display: block; margin: 0; font-size: .82rem; }
+  .theme-banner p { font-size: .82rem; }
+  .theme-meta { display: none; }
+  .game-grid { display: block; }
+  .board-card { padding: 11px; }
+  .word-panel { margin-top: 10px; }
+  .status-line { align-items: flex-start; }
+  .status-line strong { font-size: .84rem; }
+  .status-line > span { font-size: .72rem; }
+  .timer-card { grid-template-columns: 1fr auto; }
+  .start-button { grid-column: 1 / -1; width: 100%; }
+  .strand-board { gap: 5px; }
+  .letter-cell { font-size: clamp(.72rem, 3.5vw, .92rem); }
+  .selection-lines polyline { stroke-width: 8; }
+  .hint-panel { grid-template-columns: 34px 1fr auto; }
+  .hint-used { display: none; }
+  .hint-btn { grid-column: 1 / -1; width: 100%; }
+  .result-card, .exit-card { padding: 22px 18px; }
+}
+
+@media (max-width: 430px) {
+  .top-stats .run-stat { display: none; }
+  .theme-sidebar { height: 118px; flex-basis: 118px; }
+  .theme-card { min-width: 174px; min-height: 96px; }
+  .board-help { font-size: .7rem; }
+  .letter-cell { border-width: 1px; }
+  .result-actions.three-actions { flex-direction: column; }
+}
+
+@media (max-width: 760px) {
+  .word-slot-list { max-height: none; }
+  .blank-piece { width: 20px; }
+  .word-slot.found { grid-template-columns: 38px minmax(0,1fr) 26px; }
+}
+
+@media (max-width:760px) {
+  .hint-actions { grid-column:1 / -1; width:100%; }
+  .hint-actions button { flex:1; }
+  .answer-mode-bar { align-items:flex-start; flex-direction:column; }
+  .answer-mode-bar button { width:100%; }
+  .path-overlay .guide-path { stroke-width:7; }
+}
+
+@media (max-width:760px) {
+  .letter-cell { font-size: clamp(.98rem,4vw,1.18rem); }
+  .theme-banner h1 { font-size:1.65rem; }
+  .status-line strong { font-size:.98rem; }
+  .found-word-copy strong { font-size:1.08rem; }
+  .board-help { font-size:.84rem; }
+  .theme-card-copy span { font-size:.82rem; }
+}
