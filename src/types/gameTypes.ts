@@ -3,40 +3,60 @@ export type RawCell = Cell | [number, number];
 
 export type TargetWord = {
   id: string;
+
   word: string;
-  meaning?: string;
   transliteration: string;
+  meaning: string;
+
   audioPath: string;
+
   tokens: string[];
   path: Cell[];
-  spangram: boolean;
+
+  featured: boolean;
+  bonus: boolean;
 };
 
 export type Theme = {
   id: string;
+  order?: number;
+
   titleSanskrit: string;
   titleEnglish: string;
+
   clue: string;
-  clueSanskrit?: string;
+  clueSanskrit: string;
+
   icon: string;
+
   difficulty: string;
-  difficultySanskrit?: string;
+  difficultySanskrit: string;
+
   pathDifficulty: 'starter' | 'two-direction' | 'multi-bend';
+
   rows: number;
   cols: number;
+
   grid: string[][];
+
   targets: TargetWord[];
-  bonusWords?: string[];
+
+  requiredWordCount: number;
+
   startingHints: number;
+
   themeWordPoints: number;
-  spangramPoints: number;
+  featuredWordPoints: number;
+  bonusWordPoints: number;
+
   completionPoints: number;
+
   maxSpeedBonus: number;
   speedBonusLossPerMinute: number;
+
   hintPenalty: number;
+
   background: string;
-  status?: string;
-  order?: number;
 };
 
 export type Language = 'en' | 'sa';

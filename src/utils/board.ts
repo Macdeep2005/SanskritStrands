@@ -20,8 +20,21 @@ export function pathText(theme: Theme, path: Cell[]) {
 }
 
 export function targetForPath(theme: Theme, path: Cell[]) {
+  // First check the intended stored path.
+  const exactTarget = theme.targets.find(
+    (target) =>
+      samePath(target.path, path) ||
+      samePath(target.path, reversePath(path)),
+  );
+
+  if (exactTarget) return exactTarget;
+
+  // If repeated letters create the same valid Sanskrit word
+  // through another connected route, still accept it.
+  const selectedWord = pathText(theme, path);
+
   return theme.targets.find(
-    (target) => samePath(target.path, path) || samePath(target.path, reversePath(path)),
+    (target) => target.word === selectedWord,
   );
 }
 

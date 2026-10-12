@@ -15,55 +15,56 @@
     "grid": [
       [
         "ग",
+        "णे",
+        "शः",
+        "रा",
         "मः",
+        "कृ"
+      ],
+      [
+        "स्व",
+        "र",
+        "स",
+        "वः",
         "शि",
-        "वः",
-        "मः",
-        "णे"
-      ],
-      [
-        "स",
-        "मः",
-        "स",
-        "स",
-        "वः",
-        "ग"
-      ],
-      [
-        "ष्णः",
-        "स्व",
-        "र",
-        "र",
-        "मः",
-        "शः"
-      ],
-      [
-        "कृ",
-        "स",
-        "स",
-        "स्व",
-        "ग",
-        "णे"
-      ],
-      [
-        "र",
-        "वः",
-        "र",
-        "ती",
-        "मः",
-        "रा"
+        "ष्णः"
       ],
       [
         "ती",
-        "ती",
-        "कृ",
-        "मः",
-        "स",
-        "वः"
+        "ओं",
+        "का",
+        "रः",
+        "आ",
+        "ञ्ज"
+      ],
+      [
+        "यः",
+        "ल",
+        "वा",
+        "दे",
+        "यः",
+        "ने"
+      ],
+      [
+        "अ",
+        "र्च",
+        "कः",
+        "ज",
+        "प",
+        "ति"
+      ],
+      [
+        "ति",
+        "म",
+        "न",
+        "ति",
+        "ज",
+        "य"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "गणेशः",
         "transliteration": "gaṇeśaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp01/u01.mp3",
@@ -72,25 +73,26 @@
           "णे",
           "शः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 4
+            "row": 0,
+            "col": 0
           },
           {
-            "row": 3,
-            "col": 5
+            "row": 0,
+            "col": 1
           },
           {
-            "row": 2,
-            "col": 5
+            "row": 0,
+            "col": 2
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "Ganesha"
       },
       {
+        "id": "w2",
         "word": "रामः",
         "transliteration": "rāmaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp01/u02.mp3",
@@ -98,21 +100,22 @@
           "रा",
           "मः"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
-            "row": 4,
-            "col": 5
+            "row": 0,
+            "col": 3
           },
           {
-            "row": 4,
+            "row": 0,
             "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "Rama"
       },
       {
+        "id": "w3",
         "word": "कृष्णः",
         "transliteration": "kr̥ṣṇaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp01/u03.mp3",
@@ -120,21 +123,22 @@
           "कृ",
           "ष्णः"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 0
+            "row": 0,
+            "col": 5
           },
           {
-            "row": 2,
-            "col": 0
+            "row": 1,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "Krishna"
       },
       {
+        "id": "w4",
         "word": "शिवः",
         "transliteration": "śivaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp01/u04.mp3",
@@ -142,21 +146,22 @@
           "शि",
           "वः"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
           {
-            "row": 0,
-            "col": 2
+            "row": 1,
+            "col": 4
           },
           {
-            "row": 0,
+            "row": 1,
             "col": 3
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "Shiva"
       },
       {
+        "id": "w5",
         "word": "सरस्वती",
         "transliteration": "sarasvatī",
         "audioPath": "https://zat.am/bp26/imgs/bp01/u05.mp3",
@@ -166,33 +171,240 @@
           "स्व",
           "ती"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 0
+          }
+        ],
+        "featured": true,
+        "bonus": false,
+        "meaning": "Saraswati"
+      },
+      {
+        "id": "b1",
+        "word": "ओंकारः",
+        "transliteration": "omkāraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u12.mp3",
+        "tokens": [
+          "ओं",
+          "का",
+          "रः"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 1
+          },
+          {
+            "row": 2,
             "col": 2
           },
           {
             "row": 2,
             "col": 3
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "Om / sacred syllable"
+      },
+      {
+        "id": "b2",
+        "word": "आञ्जनेयः",
+        "transliteration": "aṇjaneyaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u08.mp3",
+        "tokens": [
+          "आ",
+          "ञ्ज",
+          "ने",
+          "यः"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 4
           },
+          {
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 4
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "Hanuman"
+      },
+      {
+        "id": "b3",
+        "word": "देवालयः",
+        "transliteration": "devālayaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u11.mp3",
+        "tokens": [
+          "दे",
+          "वा",
+          "ल",
+          "यः"
+        ],
+        "path": [
           {
             "row": 3,
             "col": 3
           },
           {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 3,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "temple"
+      },
+      {
+        "id": "b4",
+        "word": "अर्चकः",
+        "transliteration": "arcakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u07.mp3",
+        "tokens": [
+          "अ",
+          "र्च",
+          "कः"
+        ],
+        "path": [
+          {
             "row": 4,
+            "col": 0
+          },
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "priest"
+      },
+      {
+        "id": "b5",
+        "word": "जपति",
+        "transliteration": "japati",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u13.mp3",
+        "tokens": [
+          "ज",
+          "प",
+          "ति"
+        ],
+        "path": [
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 4,
+            "col": 4
+          },
+          {
+            "row": 4,
+            "col": 5
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "chants"
+      },
+      {
+        "id": "b6",
+        "word": "यजति",
+        "transliteration": "yajati",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u14.mp3",
+        "tokens": [
+          "य",
+          "ज",
+          "ति"
+        ],
+        "path": [
+          {
+            "row": 5,
+            "col": 5
+          },
+          {
+            "row": 5,
+            "col": 4
+          },
+          {
+            "row": 5,
             "col": 3
           }
         ],
-        "spangram": true
+        "featured": false,
+        "bonus": true,
+        "meaning": "worships / performs a ritual"
+      },
+      {
+        "id": "b7",
+        "word": "नमति",
+        "transliteration": "namati",
+        "audioPath": "https://zat.am/bp26/imgs/bp01/u15.mp3",
+        "tokens": [
+          "न",
+          "म",
+          "ति"
+        ],
+        "path": [
+          {
+            "row": 5,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 5,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "bows"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 5,
     "startingHints": 3,
     "themeWordPoints": 15,
-    "spangramPoints": 40,
+    "featuredWordPoints": 40,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 100,
     "speedBonusLossPerMinute": 15,
@@ -214,56 +426,57 @@
     "cols": 6,
     "grid": [
       [
-        "ध्या",
-        "छा",
-        "का",
-        "प",
         "अ",
-        "बा"
-      ],
-      [
-        "त्रः",
-        "लि",
-        "कः",
         "ध्या",
+        "पि",
+        "छा",
+        "त्रः",
+        "म्"
+      ],
+      [
+        "द्धा",
+        "वृ",
+        "द्धः",
+        "का",
         "कः",
-        "का"
+        "ह"
+      ],
+      [
+        "वृ",
+        "चि",
+        "म",
+        "र",
+        "प",
+        "गृ"
       ],
       [
         "बा",
-        "पि",
+        "ति",
+        "त्र",
+        "न्दि",
+        "म्",
+        "ध्या"
+      ],
+      [
         "बा",
-        "पि",
-        "पि",
+        "ल",
+        "ख",
+        "यः",
+        "द्या",
         "अ"
       ],
       [
-        "ल",
-        "ल",
-        "ल",
-        "का",
-        "ध्या",
-        "द्या"
-      ],
-      [
-        "त्रः",
-        "यः",
         "कः",
-        "द्या",
-        "अ",
-        "द्या"
-      ],
-      [
-        "द्या",
-        "छा",
+        "लि",
         "का",
-        "ध्या",
-        "वि",
-        "कः"
+        "लि",
+        "ल",
+        "वि"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "विद्यालयः",
         "transliteration": "vidyālayaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp02/u04.mp3",
@@ -273,9 +486,15 @@
           "ल",
           "यः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
+          {
+            "row": 5,
+            "col": 5
+          },
+          {
+            "row": 4,
+            "col": 4
+          },
           {
             "row": 5,
             "col": 4
@@ -283,19 +502,14 @@
           {
             "row": 4,
             "col": 3
-          },
-          {
-            "row": 3,
-            "col": 2
-          },
-          {
-            "row": 4,
-            "col": 1
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "school"
       },
       {
+        "id": "w2",
         "word": "बालकः",
         "transliteration": "bālakaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp02/u05.mp3",
@@ -304,25 +518,26 @@
           "ल",
           "कः"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
+            "row": 3,
             "col": 0
           },
           {
-            "row": 3,
+            "row": 4,
             "col": 1
           },
           {
-            "row": 4,
-            "col": 2
+            "row": 5,
+            "col": 0
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "boy"
       },
       {
+        "id": "w3",
         "word": "अध्यापकः",
         "transliteration": "adhyāpakaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp03/u05.mp3",
@@ -332,29 +547,30 @@
           "प",
           "कः"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
-            "row": 0,
+            "row": 4,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 5
+          },
+          {
+            "row": 2,
             "col": 4
           },
           {
             "row": 1,
-            "col": 3
-          },
-          {
-            "row": 0,
-            "col": 3
-          },
-          {
-            "row": 1,
-            "col": 2
+            "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "male teacher"
       },
       {
+        "id": "w4",
         "word": "छात्रः",
         "transliteration": "chātraḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp02/26u05.mp3",
@@ -362,21 +578,22 @@
           "छा",
           "त्रः"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
           {
-            "row": 5,
-            "col": 1
+            "row": 0,
+            "col": 3
           },
           {
-            "row": 4,
-            "col": 0
+            "row": 0,
+            "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "male student"
       },
       {
+        "id": "w5",
         "word": "बालिका",
         "transliteration": "bālikā",
         "audioPath": "https://zat.am/bp26/imgs/bp02/u09.mp3",
@@ -385,25 +602,26 @@
           "लि",
           "का"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
-            "col": 2
+            "row": 4,
+            "col": 0
           },
           {
-            "row": 1,
+            "row": 5,
             "col": 1
           },
           {
-            "row": 0,
+            "row": 5,
             "col": 2
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "girl"
       },
       {
+        "id": "w6",
         "word": "अध्यापिका",
         "transliteration": "adhyāpikā",
         "audioPath": "https://zat.am/bp26/imgs/bp02/u08.mp3",
@@ -413,33 +631,179 @@
           "पि",
           "का"
         ],
-        "id": "w6",
-        "meaning": "",
         "path": [
           {
-            "row": 4,
-            "col": 4
+            "row": 0,
+            "col": 0
           },
           {
-            "row": 3,
-            "col": 4
+            "row": 0,
+            "col": 1
           },
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 3
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "female teacher"
+      },
+      {
+        "id": "b1",
+        "word": "वृद्धः",
+        "transliteration": "vr̥ddhaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/26u04.mp3",
+        "tokens": [
+          "वृ",
+          "द्धः"
+        ],
+        "path": [
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "old man"
+      },
+      {
+        "id": "b2",
+        "word": "वृद्धा",
+        "transliteration": "vr̥ddhā",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/26u08.mp3",
+        "tokens": [
+          "वृ",
+          "द्धा"
+        ],
+        "path": [
           {
             "row": 2,
-            "col": 4
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "old woman"
+      },
+      {
+        "id": "b3",
+        "word": "गृहम्",
+        "transliteration": "gr̥ham",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u12.mp3",
+        "tokens": [
+          "गृ",
+          "ह",
+          "म्"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 5
           },
           {
             "row": 1,
             "col": 5
+          },
+          {
+            "row": 0,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": true,
+        "meaning": "house / home"
+      },
+      {
+        "id": "b4",
+        "word": "चित्रमन्दिरम्",
+        "transliteration": "citramandiram",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/u10.mp3",
+        "tokens": [
+          "चि",
+          "त्र",
+          "म",
+          "न्दि",
+          "र",
+          "म्"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 1
+          },
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 4
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "cinema / movie theatre"
+      },
+      {
+        "id": "b5",
+        "word": "लिखति",
+        "transliteration": "likhati",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/u13.mp3",
+        "tokens": [
+          "लि",
+          "ख",
+          "ति"
+        ],
+        "path": [
+          {
+            "row": 5,
+            "col": 3
+          },
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 1
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "writes"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 6,
     "startingHints": 3,
     "themeWordPoints": 15,
-    "spangramPoints": 40,
+    "featuredWordPoints": 40,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 110,
     "speedBonusLossPerMinute": 15,
@@ -454,63 +818,64 @@
     "clue": "Find the Sanskrit words in the professions theme.",
     "clueSanskrit": "विषयसम्बद्धान् संस्कृतशब्दान् अन्वेषयतु।",
     "icon": "क्री",
-    "difficulty": "Beginner",
-    "difficultySanskrit": "आरम्भिकः",
-    "pathDifficulty": "two-direction",
+    "difficulty": "Intermediate",
+    "difficultySanskrit": "मध्यमः",
+    "pathDifficulty": "multi-bend",
     "rows": 6,
     "cols": 6,
     "grid": [
       [
-        "द्या",
-        "तः",
-        "पि",
-        "क्री",
-        "क्ष",
+        "त्र",
+        "चि",
+        "का",
+        "लि",
+        "ना",
         "कः"
       ],
       [
-        "ड",
-        "ना",
-        "कः",
-        "कः",
-        "आ",
-        "र"
+        "का",
+        "री",
+        "र्त",
+        "चा",
+        "पि",
+        "ड"
       ],
       [
+        "दू",
+        "की",
+        "न",
         "का",
-        "ड",
         "क्री",
-        "ल्प",
-        "द्या",
-        "ल्प"
+        "तः"
       ],
       [
-        "द्या",
-        "द्या",
-        "वै",
-        "शि",
-        "का",
+        "वि",
+        "ष",
+        "यि",
+        "गा",
+        "कः",
         "शि"
       ],
       [
-        "रः",
-        "कः",
+        "वै",
         "द्या",
-        "पा",
         "कः",
-        "रः"
+        "आ",
+        "च",
+        "ल्प"
       ],
       [
-        "पा",
-        "द्या",
-        "वै",
+        "कः",
+        "क्ष",
         "र",
-        "च",
-        "च"
+        "पा",
+        "रः",
+        "का"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "क्रीडकः",
         "transliteration": "kr̥īḍakaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp03/u06.mp3",
@@ -519,25 +884,26 @@
           "ड",
           "कः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
             "row": 2,
-            "col": 2
-          },
-          {
-            "row": 2,
-            "col": 1
+            "col": 4
           },
           {
             "row": 1,
-            "col": 2
+            "col": 5
+          },
+          {
+            "row": 0,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "player / athlete"
       },
       {
+        "id": "w2",
         "word": "नापितः",
         "transliteration": "nāpitaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp03/26u02.mp3",
@@ -546,25 +912,26 @@
           "पि",
           "तः"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
+            "row": 0,
+            "col": 4
+          },
+          {
             "row": 1,
-            "col": 1
+            "col": 4
           },
           {
-            "row": 0,
-            "col": 2
-          },
-          {
-            "row": 0,
-            "col": 1
+            "row": 2,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "barber"
       },
       {
+        "id": "w3",
         "word": "शिल्पकारः",
         "transliteration": "śilpakāraḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp03/26u03.mp3",
@@ -574,29 +941,30 @@
           "का",
           "रः"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
             "row": 3,
-            "col": 3
-          },
-          {
-            "row": 2,
-            "col": 3
-          },
-          {
-            "row": 3,
-            "col": 4
+            "col": 5
           },
           {
             "row": 4,
             "col": 5
+          },
+          {
+            "row": 5,
+            "col": 5
+          },
+          {
+            "row": 5,
+            "col": 4
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "artisan / sculptor"
       },
       {
+        "id": "w4",
         "word": "पाचकः",
         "transliteration": "pācakaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp03/26u04.mp3",
@@ -605,25 +973,26 @@
           "च",
           "कः"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
           {
-            "row": 4,
+            "row": 5,
             "col": 3
           },
           {
-            "row": 5,
+            "row": 4,
             "col": 4
           },
           {
-            "row": 4,
+            "row": 3,
             "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "cook / chef"
       },
       {
+        "id": "w5",
         "word": "आरक्षकः",
         "transliteration": "ārakṣakaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp03/26u05.mp3",
@@ -633,39 +1002,11 @@
           "क्ष",
           "कः"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
-            "row": 1,
-            "col": 4
+            "row": 4,
+            "col": 3
           },
-          {
-            "row": 1,
-            "col": 5
-          },
-          {
-            "row": 0,
-            "col": 4
-          },
-          {
-            "row": 0,
-            "col": 5
-          }
-        ],
-        "spangram": false
-      },
-      {
-        "word": "वैद्या",
-        "transliteration": "vaidyā",
-        "audioPath": "https://zat.am/bp26/imgs/bp03/26u09.mp3",
-        "tokens": [
-          "वै",
-          "द्या"
-        ],
-        "id": "w6",
-        "meaning": "",
-        "path": [
           {
             "row": 5,
             "col": 2
@@ -673,15 +1014,195 @@
           {
             "row": 5,
             "col": 1
+          },
+          {
+            "row": 5,
+            "col": 0
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "police officer / guard"
+      },
+      {
+        "id": "w6",
+        "word": "वैद्या",
+        "transliteration": "vaidyā",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u09.mp3",
+        "tokens": [
+          "वै",
+          "द्या"
+        ],
+        "path": [
+          {
+            "row": 4,
+            "col": 0
+          },
+          {
+            "row": 4,
+            "col": 1
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "female doctor"
+      },
+      {
+        "id": "b1",
+        "word": "विदूषकः",
+        "transliteration": "vidūṣakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u07.mp3",
+        "tokens": [
+          "वि",
+          "दू",
+          "ष",
+          "कः"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 0
+          },
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "clown / jester"
+      },
+      {
+        "id": "b2",
+        "word": "गायिका",
+        "transliteration": "gāyikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u08.mp3",
+        "tokens": [
+          "गा",
+          "यि",
+          "का"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 3
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "female singer"
+      },
+      {
+        "id": "b3",
+        "word": "चालिका",
+        "transliteration": "cālikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u10.mp3",
+        "tokens": [
+          "चा",
+          "लि",
+          "का"
+        ],
+        "path": [
+          {
+            "row": 1,
+            "col": 3
+          },
+          {
+            "row": 0,
+            "col": 3
+          },
+          {
+            "row": 0,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "female driver"
+      },
+      {
+        "id": "b4",
+        "word": "चित्रकारी",
+        "transliteration": "citrakārī",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u11.mp3",
+        "tokens": [
+          "चि",
+          "त्र",
+          "का",
+          "री"
+        ],
+        "path": [
+          {
+            "row": 0,
+            "col": 1
+          },
+          {
+            "row": 0,
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 1
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "female artist / painter"
+      },
+      {
+        "id": "b5",
+        "word": "नर्तकी",
+        "transliteration": "nartakī",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/26u12.mp3",
+        "tokens": [
+          "न",
+          "र्त",
+          "की"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 1
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "female dancer"
       }
     ],
-    "bonusWords": [],
-    "startingHints": 3,
+    "requiredWordCount": 6,
+    "startingHints": 2,
     "themeWordPoints": 15,
-    "spangramPoints": 40,
+    "featuredWordPoints": 40,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 120,
     "speedBonusLossPerMinute": 15,
@@ -698,61 +1219,62 @@
     "icon": "द",
     "difficulty": "Intermediate",
     "difficultySanskrit": "मध्यमः",
-    "pathDifficulty": "two-direction",
+    "pathDifficulty": "multi-bend",
     "rows": 6,
     "cols": 6,
     "grid": [
       [
+        "द्वि",
+        "च",
         "क्रि",
-        "द",
-        "र्प",
-        "का",
-        "क्रि",
-        "कु"
+        "न",
+        "पे",
+        "टि"
       ],
       [
-        "द",
-        "कः",
+        "का",
+        "का",
+        "या",
+        "रि",
+        "छु",
+        "का"
+      ],
+      [
+        "ञ्चि",
+        "घ",
+        "म्",
+        "का",
+        "म्",
+        "न"
+      ],
+      [
         "कु",
-        "णः",
-        "का",
-        "ञ्चि"
-      ],
-      [
-        "ष",
-        "सः",
-        "का",
-        "णः",
-        "द",
-        "द्वि"
+        "टी",
+        "क",
+        "दू",
+        "र्श",
+        "द"
       ],
       [
         "म",
-        "च",
-        "का",
-        "र्प",
-        "च",
+        "सः",
+        "क",
+        "न्दु",
+        "र",
         "द"
       ],
       [
         "च",
+        "कः",
+        "ष",
         "च",
-        "क",
-        "क्रि",
-        "कु",
-        "टी"
-      ],
-      [
-        "म्",
-        "क",
-        "न्दु",
-        "ञ्चि",
-        "घ",
-        "ञ्चि"
+        "णः",
+        "र्प"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "दर्पणः",
         "transliteration": "drapaṇaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp04/u01.mp3",
@@ -761,25 +1283,26 @@
           "र्प",
           "णः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
-            "row": 0,
-            "col": 1
+            "row": 4,
+            "col": 5
           },
           {
-            "row": 0,
-            "col": 2
+            "row": 5,
+            "col": 5
           },
           {
-            "row": 1,
-            "col": 3
+            "row": 5,
+            "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "mirror"
       },
       {
+        "id": "w2",
         "word": "चषकः",
         "transliteration": "caṣakaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp04/u02.mp3",
@@ -788,25 +1311,26 @@
           "ष",
           "कः"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 1
+            "row": 5,
+            "col": 3
           },
           {
-            "row": 2,
-            "col": 0
+            "row": 5,
+            "col": 2
           },
           {
-            "row": 1,
+            "row": 5,
             "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "cup / glass"
       },
       {
+        "id": "w3",
         "word": "चमसः",
         "transliteration": "camasaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp04/u03.mp3",
@@ -815,25 +1339,26 @@
           "म",
           "सः"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
-            "row": 4,
-            "col": 1
-          },
-          {
-            "row": 3,
+            "row": 5,
             "col": 0
           },
           {
-            "row": 2,
+            "row": 4,
+            "col": 0
+          },
+          {
+            "row": 4,
             "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "spoon"
       },
       {
+        "id": "w4",
         "word": "कुञ्चिका",
         "transliteration": "kuṇcikā",
         "audioPath": "https://zat.am/bp26/imgs/bp04/u04.mp3",
@@ -842,25 +1367,26 @@
           "ञ्चि",
           "का"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
           {
-            "row": 0,
-            "col": 5
+            "row": 3,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 0
           },
           {
             "row": 1,
-            "col": 5
-          },
-          {
-            "row": 1,
-            "col": 4
+            "col": 0
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "key"
       },
       {
+        "id": "w5",
         "word": "द्विचक्रिका",
         "transliteration": "dvicakrikā",
         "audioPath": "https://zat.am/bp26/imgs/bp04/u06.mp3",
@@ -870,29 +1396,30 @@
           "क्रि",
           "का"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
-            "col": 5
+            "row": 0,
+            "col": 0
           },
           {
-            "row": 3,
-            "col": 4
+            "row": 0,
+            "col": 1
           },
           {
-            "row": 4,
-            "col": 3
-          },
-          {
-            "row": 3,
+            "row": 0,
             "col": 2
+          },
+          {
+            "row": 1,
+            "col": 1
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "bicycle"
       },
       {
+        "id": "w6",
         "word": "घटी",
         "transliteration": "ghaṭī",
         "audioPath": "https://zat.am/bp26/imgs/bp04/u09.mp3",
@@ -900,21 +1427,22 @@
           "घ",
           "टी"
         ],
-        "id": "w6",
-        "meaning": "",
         "path": [
           {
-            "row": 5,
-            "col": 4
+            "row": 2,
+            "col": 1
           },
           {
-            "row": 4,
-            "col": 5
+            "row": 3,
+            "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "clock / watch"
       },
       {
+        "id": "w7",
         "word": "कन्दुकम्",
         "transliteration": "kandukam",
         "audioPath": "https://zat.am/bp26/imgs/bp04/u10.mp3",
@@ -924,33 +1452,143 @@
           "क",
           "म्"
         ],
-        "id": "w7",
-        "meaning": "",
         "path": [
           {
             "row": 4,
             "col": 2
           },
           {
-            "row": 5,
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 3,
             "col": 2
           },
           {
-            "row": 5,
-            "col": 1
-          },
-          {
-            "row": 5,
-            "col": 0
+            "row": 2,
+            "col": 2
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "ball"
+      },
+      {
+        "id": "b1",
+        "word": "यानपेटिका",
+        "transliteration": "yānapēṭikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp04/u05.mp3",
+        "tokens": [
+          "या",
+          "न",
+          "पे",
+          "टि",
+          "का"
+        ],
+        "path": [
+          {
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 0,
+            "col": 3
+          },
+          {
+            "row": 0,
+            "col": 4
+          },
+          {
+            "row": 0,
+            "col": 5
+          },
+          {
+            "row": 1,
+            "col": 5
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "suitcase / luggage"
+      },
+      {
+        "id": "b2",
+        "word": "छुरिका",
+        "transliteration": "churikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp04/u07.mp3",
+        "tokens": [
+          "छु",
+          "रि",
+          "का"
+        ],
+        "path": [
+          {
+            "row": 1,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 3
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "knife"
+      },
+      {
+        "id": "b3",
+        "word": "दूरदर्शनम्",
+        "transliteration": "dūradarśanam",
+        "audioPath": "https://zat.am/bp26/imgs/bp04/u11.mp3",
+        "tokens": [
+          "दू",
+          "र",
+          "द",
+          "र्श",
+          "न",
+          "म्"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 4,
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 5
+          },
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 2,
+            "col": 4
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "television"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 7,
     "startingHints": 2,
     "themeWordPoints": 20,
-    "spangramPoints": 50,
+    "featuredWordPoints": 50,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 130,
     "speedBonusLossPerMinute": 15,
@@ -972,56 +1610,57 @@
     "cols": 6,
     "grid": [
       [
-        "ङ्क",
-        "ख",
-        "म्",
+        "न्दः",
         "स",
-        "स्त",
-        "म्"
-      ],
-      [
-        "ख",
-        "ले",
+        "यः",
+        "मा",
         "पि",
-        "क",
-        "पु",
-        "क"
+        "का"
       ],
       [
-        "नी",
-        "स",
-        "ण",
         "ग्र",
-        "ङ्क",
+        "ल",
+        "आ",
+        "ले",
+        "नी",
         "अ"
       ],
       [
-        "ङ्ग",
-        "आ",
-        "ङ्ग",
-        "ग्र",
-        "नी",
-        "ल"
-      ],
-      [
-        "का",
-        "मा",
-        "मा",
-        "आ",
         "न्था",
-        "यः"
+        "का",
+        "क",
+        "स्त",
+        "ख",
+        "ङ्क"
       ],
       [
-        "अ",
-        "पि",
+        "न्ध्रि",
+        "क",
+        "ती",
+        "म्",
+        "पु",
+        "नी"
+      ],
+      [
+        "र",
+        "क्ष्ण",
+        "म्",
+        "उ",
+        "म्",
+        "स"
+      ],
+      [
         "का",
-        "स",
-        "स",
-        "न्दः"
+        "ठि",
+        "त्पी",
+        "क",
+        "ण",
+        "ङ्ग"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "आसन्दः",
         "transliteration": "āsandaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp05/u01.mp3",
@@ -1030,25 +1669,26 @@
           "स",
           "न्दः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
-            "row": 4,
-            "col": 3
+            "row": 1,
+            "col": 2
           },
           {
-            "row": 5,
-            "col": 4
+            "row": 0,
+            "col": 1
           },
           {
-            "row": 5,
-            "col": 5
+            "row": 0,
+            "col": 0
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "chair"
       },
       {
+        "id": "w2",
         "word": "ग्रन्थालयः",
         "transliteration": "granthālayaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp05/u11.mp3",
@@ -1058,29 +1698,30 @@
           "ल",
           "यः"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 3
+            "row": 1,
+            "col": 0
           },
           {
-            "row": 4,
-            "col": 4
+            "row": 2,
+            "col": 0
           },
           {
-            "row": 3,
-            "col": 5
+            "row": 1,
+            "col": 1
           },
           {
-            "row": 4,
-            "col": 5
+            "row": 0,
+            "col": 2
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "library"
       },
       {
+        "id": "w3",
         "word": "मापिका",
         "transliteration": "māpikā",
         "audioPath": "https://zat.am/bp26/imgs/bp05/u03.mp3",
@@ -1089,25 +1730,26 @@
           "पि",
           "का"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
-            "row": 4,
-            "col": 2
+            "row": 0,
+            "col": 3
           },
           {
-            "row": 5,
-            "col": 1
+            "row": 0,
+            "col": 4
           },
           {
-            "row": 4,
-            "col": 0
+            "row": 0,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "ruler"
       },
       {
+        "id": "w4",
         "word": "अङ्कनी",
         "transliteration": "ankanī",
         "audioPath": "https://zat.am/bp26/imgs/bp05/u05.mp3",
@@ -1116,25 +1758,26 @@
           "ङ्क",
           "नी"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
+          {
+            "row": 1,
+            "col": 5
+          },
           {
             "row": 2,
             "col": 5
           },
           {
-            "row": 2,
-            "col": 4
-          },
-          {
-            "row": 3,
+            "row": 1,
             "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "pencil"
       },
       {
+        "id": "w5",
         "word": "लेखनी",
         "transliteration": "lekhanī",
         "audioPath": "https://zat.am/bp26/imgs/bp05/u06.mp3",
@@ -1143,25 +1786,26 @@
           "ख",
           "नी"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
             "row": 1,
-            "col": 1
-          },
-          {
-            "row": 1,
-            "col": 0
+            "col": 3
           },
           {
             "row": 2,
-            "col": 0
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "pen"
       },
       {
+        "id": "w6",
         "word": "सङ्गणकम्",
         "transliteration": "sangaṇakam",
         "audioPath": "https://zat.am/bp26/imgs/bp05/u09.mp3",
@@ -1172,33 +1816,34 @@
           "क",
           "म्"
         ],
-        "id": "w6",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
-            "col": 1
+            "row": 4,
+            "col": 5
           },
           {
-            "row": 3,
-            "col": 2
+            "row": 5,
+            "col": 5
           },
           {
-            "row": 2,
-            "col": 2
+            "row": 5,
+            "col": 4
           },
           {
-            "row": 1,
+            "row": 5,
             "col": 3
           },
           {
-            "row": 0,
-            "col": 2
+            "row": 4,
+            "col": 4
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "computer"
       },
       {
+        "id": "w7",
         "word": "पुस्तकम्",
         "transliteration": "pustakam",
         "audioPath": "https://zat.am/bp26/imgs/bp05/u10.mp3",
@@ -1208,33 +1853,128 @@
           "क",
           "म्"
         ],
-        "id": "w7",
-        "meaning": "",
         "path": [
           {
-            "row": 1,
+            "row": 3,
             "col": 4
           },
           {
-            "row": 0,
-            "col": 4
+            "row": 2,
+            "col": 3
           },
           {
-            "row": 1,
-            "col": 5
+            "row": 2,
+            "col": 2
           },
           {
-            "row": 0,
-            "col": 5
+            "row": 3,
+            "col": 3
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "book"
+      },
+      {
+        "id": "b1",
+        "word": "उत्पीठिका",
+        "transliteration": "utpīṭhikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp05/u02.mp3",
+        "tokens": [
+          "उ",
+          "त्पी",
+          "ठि",
+          "का"
+        ],
+        "path": [
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 5,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 5,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "desk / table"
+      },
+      {
+        "id": "b2",
+        "word": "रन्ध्रिका",
+        "transliteration": "randhrikā",
+        "audioPath": "https://zat.am/bp26/imgs/bp05/u04.mp3",
+        "tokens": [
+          "र",
+          "न्ध्रि",
+          "का"
+        ],
+        "path": [
+          {
+            "row": 4,
+            "col": 0
+          },
+          {
+            "row": 3,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 1
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "hole punch"
+      },
+      {
+        "id": "b3",
+        "word": "तीक्ष्णकम्",
+        "transliteration": "tīkṣṇakam",
+        "audioPath": "https://zat.am/bp26/imgs/bp05/u08.mp3",
+        "tokens": [
+          "ती",
+          "क्ष्ण",
+          "क",
+          "म्"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "sharpener"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 7,
     "startingHints": 2,
     "themeWordPoints": 20,
-    "spangramPoints": 50,
+    "featuredWordPoints": 50,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 140,
     "speedBonusLossPerMinute": 15,
@@ -1256,56 +1996,57 @@
     "cols": 6,
     "grid": [
       [
-        "वि",
-        "मा",
-        "नौ",
-        "का",
+        "नी",
+        "र्ज",
+        "म्मा",
+        "स",
         "द्वा",
-        "द्वा"
+        "का"
       ],
       [
-        "न",
-        "वि",
+        "यु",
+        "ति",
+        "प",
+        "लः",
+        "नौ",
+        "र"
+      ],
+      [
+        "त",
         "म्",
-        "र",
+        "त",
+        "ता",
+        "त्र",
+        "म्"
+      ],
+      [
+        "म्",
+        "क",
+        "र्चः",
+        "कू",
+        "म्",
+        "छ"
+      ],
+      [
+        "क्र",
         "द",
-        "न"
+        "न्त",
+        "मा",
+        "म्",
+        "का"
       ],
       [
         "च",
         "म्",
-        "छ",
-        "का",
-        "नौ",
-        "न्त"
-      ],
-      [
-        "क्र",
-        "म्",
-        "र्या",
-        "म्",
-        "कू",
-        "र्चः"
-      ],
-      [
-        "र",
-        "म्",
         "न",
-        "म्",
-        "म्",
-        "द"
-      ],
-      [
-        "कू",
-        "म्",
-        "नौ",
-        "कू",
-        "त्र",
-        "छ"
+        "वि",
+        "न",
+        "र्या"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "नौका",
         "transliteration": "naukā",
         "audioPath": "https://zat.am/bp26/imgs/bp03/u09.mp3",
@@ -1313,21 +2054,22 @@
           "नौ",
           "का"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
-            "row": 0,
-            "col": 2
+            "row": 1,
+            "col": 4
           },
           {
             "row": 0,
-            "col": 3
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "boat"
       },
       {
+        "id": "w2",
         "word": "द्वारम्",
         "transliteration": "dvāram",
         "audioPath": "https://zat.am/bp26/imgs/bp02/u11.mp3",
@@ -1336,8 +2078,6 @@
           "र",
           "म्"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
             "row": 0,
@@ -1345,16 +2085,19 @@
           },
           {
             "row": 1,
-            "col": 3
+            "col": 5
           },
           {
-            "row": 1,
-            "col": 2
+            "row": 2,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "door"
       },
       {
+        "id": "w3",
         "word": "छत्रम्",
         "transliteration": "chatraṁ",
         "audioPath": "https://zat.am/bp26/imgs/bp06/u08.mp3",
@@ -1363,25 +2106,26 @@
           "त्र",
           "म्"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
-            "row": 5,
+            "row": 3,
             "col": 5
           },
           {
-            "row": 5,
+            "row": 2,
             "col": 4
           },
           {
-            "row": 4,
+            "row": 3,
             "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "umbrella"
       },
       {
+        "id": "w4",
         "word": "कार्यानम्",
         "transliteration": "kāryānam",
         "audioPath": "https://zat.am/bp26/imgs/bp06/u09.mp3",
@@ -1391,29 +2135,30 @@
           "न",
           "म्"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
-            "col": 3
+            "row": 4,
+            "col": 5
           },
           {
-            "row": 3,
-            "col": 2
+            "row": 5,
+            "col": 5
+          },
+          {
+            "row": 5,
+            "col": 4
           },
           {
             "row": 4,
-            "col": 2
-          },
-          {
-            "row": 4,
-            "col": 1
+            "col": 4
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "car"
       },
       {
+        "id": "w5",
         "word": "विमानम्",
         "transliteration": "vimānam",
         "audioPath": "https://zat.am/bp26/imgs/bp06/u10.mp3",
@@ -1423,29 +2168,30 @@
           "न",
           "म्"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
-            "row": 0,
-            "col": 0
+            "row": 5,
+            "col": 3
           },
           {
-            "row": 0,
-            "col": 1
+            "row": 4,
+            "col": 3
           },
           {
-            "row": 1,
-            "col": 0
+            "row": 5,
+            "col": 2
           },
           {
-            "row": 2,
+            "row": 5,
             "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "airplane"
       },
       {
+        "id": "w6",
         "word": "चक्रम्",
         "transliteration": "cakram",
         "audioPath": "https://zat.am/bp26/imgs/bp06/u11.mp3",
@@ -1454,25 +2200,26 @@
           "क्र",
           "म्"
         ],
-        "id": "w6",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
+            "row": 5,
+            "col": 0
+          },
+          {
+            "row": 4,
             "col": 0
           },
           {
             "row": 3,
             "col": 0
-          },
-          {
-            "row": 3,
-            "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "wheel"
       },
       {
+        "id": "w7",
         "word": "दन्तकूर्चः",
         "transliteration": "dantakūrcaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp03/u04.mp3",
@@ -1482,33 +2229,151 @@
           "कू",
           "र्चः"
         ],
-        "id": "w7",
-        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "toothbrush"
+      },
+      {
+        "id": "b1",
+        "word": "तालः",
+        "transliteration": "tālaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u06.mp3",
+        "tokens": [
+          "ता",
+          "लः"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 1,
+            "col": 3
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "lock"
+      },
+      {
+        "id": "b2",
+        "word": "सम्मार्जनी",
+        "transliteration": "sammārjanī",
+        "audioPath": "https://zat.am/bp26/imgs/bp06/u12.mp3",
+        "tokens": [
+          "स",
+          "म्मा",
+          "र्ज",
+          "नी"
+        ],
+        "path": [
+          {
+            "row": 0,
+            "col": 3
+          },
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 0,
+            "col": 1
+          },
+          {
+            "row": 0,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "broom"
+      },
+      {
+        "id": "b3",
+        "word": "युतकम्",
+        "transliteration": "yutakam",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u10.mp3",
+        "tokens": [
+          "यु",
+          "त",
+          "क",
+          "म्"
+        ],
         "path": [
           {
             "row": 1,
-            "col": 4
+            "col": 0
           },
           {
             "row": 2,
-            "col": 5
+            "col": 0
           },
           {
             "row": 3,
-            "col": 4
+            "col": 1
           },
           {
-            "row": 3,
-            "col": 5
+            "row": 2,
+            "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": true,
+        "meaning": "shirt"
+      },
+      {
+        "id": "b4",
+        "word": "पतति",
+        "transliteration": "patati",
+        "audioPath": "https://zat.am/bp26/imgs/bp06/u14.mp3",
+        "tokens": [
+          "प",
+          "त",
+          "ति"
+        ],
+        "path": [
+          {
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 1
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "falls"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 7,
     "startingHints": 2,
     "themeWordPoints": 20,
-    "spangramPoints": 50,
+    "featuredWordPoints": 50,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 150,
     "speedBonusLossPerMinute": 15,
@@ -1530,56 +2395,57 @@
     "cols": 6,
     "grid": [
       [
-        "म्",
-        "ण",
-        "वा",
-        "का",
-        "लि",
-        "ज"
-      ],
-      [
-        "य",
-        "ता",
-        "त्रा",
-        "पे",
-        "व",
-        "स्था"
-      ],
-      [
-        "न",
-        "द",
-        "ग्नि",
-        "का",
-        "टि",
-        "नि"
-      ],
-      [
-        "म्",
-        "पा",
-        "ओ",
-        "अ",
-        "का",
+        "क",
+        "दी",
+        "पः",
+        "स",
+        "मी",
         "क"
       ],
       [
-        "क्थ",
-        "सि",
-        "र्ति",
-        "द",
         "र",
-        "दी"
+        "ने",
+        "प",
+        "नि",
+        "व",
+        "रः"
+      ],
+      [
+        "त्र",
+        "न",
+        "पा",
+        "उ",
+        "का",
+        "ज"
+      ],
+      [
+        "म्",
+        "सो",
+        "म्",
+        "म्",
+        "ग्नि",
+        "सि"
+      ],
+      [
+        "द",
+        "त्रा",
+        "ण",
+        "पे",
+        "अ",
+        "क्थ"
       ],
       [
         "पा",
-        "व",
         "का",
-        "न",
-        "म्",
-        "पः"
+        "टि",
+        "का",
+        "र्ति",
+        "व"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "करदीपः",
         "transliteration": "karadīpaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp07/u01.mp3",
@@ -1589,29 +2455,63 @@
           "दी",
           "पः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 5
+            "row": 0,
+            "col": 0
           },
           {
-            "row": 4,
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 0,
+            "col": 1
+          },
+          {
+            "row": 0,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "flashlight / torch"
+      },
+      {
+        "id": "w2",
+        "word": "समीकरः",
+        "transliteration": "samīkaraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u02.mp3",
+        "tokens": [
+          "स",
+          "मी",
+          "क",
+          "रः"
+        ],
+        "path": [
+          {
+            "row": 0,
+            "col": 3
+          },
+          {
+            "row": 0,
             "col": 4
           },
           {
-            "row": 4,
+            "row": 0,
             "col": 5
           },
           {
-            "row": 5,
+            "row": 1,
             "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "mixer / blender"
       },
       {
+        "id": "w3",
         "word": "जवनिका",
         "transliteration": "javanikā",
         "audioPath": "https://zat.am/bp26/imgs/bp07/u03.mp3",
@@ -1621,11 +2521,9 @@
           "नि",
           "का"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
-            "row": 0,
+            "row": 2,
             "col": 5
           },
           {
@@ -1633,17 +2531,20 @@
             "col": 4
           },
           {
-            "row": 2,
-            "col": 5
+            "row": 1,
+            "col": 3
           },
           {
-            "row": 3,
+            "row": 2,
             "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "curtain"
       },
       {
+        "id": "w4",
         "word": "सिक्थवर्तिका",
         "transliteration": "sikthavartikā",
         "audioPath": "https://zat.am/bp26/imgs/bp07/u04.mp3",
@@ -1654,33 +2555,34 @@
           "र्ति",
           "का"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
-            "row": 4,
-            "col": 1
+            "row": 3,
+            "col": 5
           },
           {
             "row": 4,
-            "col": 0
+            "col": 5
           },
           {
             "row": 5,
-            "col": 1
-          },
-          {
-            "row": 4,
-            "col": 2
+            "col": 5
           },
           {
             "row": 5,
-            "col": 2
+            "col": 4
+          },
+          {
+            "row": 5,
+            "col": 3
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "candle"
       },
       {
+        "id": "w5",
         "word": "अग्निपेटिका",
         "transliteration": "agnipeṭikā",
         "audioPath": "https://zat.am/bp26/imgs/bp07/u05.mp3",
@@ -1691,60 +2593,34 @@
           "टि",
           "का"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
           {
+            "row": 4,
+            "col": 4
+          },
+          {
             "row": 3,
+            "col": 4
+          },
+          {
+            "row": 4,
             "col": 3
           },
           {
-            "row": 2,
+            "row": 5,
             "col": 2
           },
           {
-            "row": 1,
-            "col": 3
-          },
-          {
-            "row": 2,
-            "col": 4
-          },
-          {
-            "row": 2,
-            "col": 3
+            "row": 5,
+            "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "matchbox"
       },
       {
-        "word": "स्थालिका",
-        "transliteration": "sthālikā",
-        "audioPath": "https://zat.am/bp26/imgs/bp07/u06.mp3",
-        "tokens": [
-          "स्था",
-          "लि",
-          "का"
-        ],
-        "id": "w5",
-        "meaning": "",
-        "path": [
-          {
-            "row": 1,
-            "col": 5
-          },
-          {
-            "row": 0,
-            "col": 4
-          },
-          {
-            "row": 0,
-            "col": 3
-          }
-        ],
-        "spangram": false
-      },
-      {
+        "id": "w6",
         "word": "पादत्राणम्",
         "transliteration": "pādatrāṇam",
         "audioPath": "https://zat.am/bp26/imgs/bp07/u08.mp3",
@@ -1755,106 +2631,109 @@
           "ण",
           "म्"
         ],
-        "id": "w6",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 1
-          },
-          {
-            "row": 2,
-            "col": 1
-          },
-          {
-            "row": 1,
-            "col": 2
-          },
-          {
-            "row": 0,
-            "col": 1
-          },
-          {
-            "row": 0,
+            "row": 5,
             "col": 0
-          }
-        ],
-        "spangram": false
-      },
-      {
-        "word": "वातायनम्",
-        "transliteration": "vātāyanam",
-        "audioPath": "https://zat.am/bp26/imgs/bp07/u11.mp3",
-        "tokens": [
-          "वा",
-          "ता",
-          "य",
-          "न",
-          "म्"
-        ],
-        "id": "w7",
-        "meaning": "",
-        "path": [
-          {
-            "row": 0,
-            "col": 2
-          },
-          {
-            "row": 1,
-            "col": 1
-          },
-          {
-            "row": 1,
-            "col": 0
-          },
-          {
-            "row": 2,
-            "col": 0
-          },
-          {
-            "row": 3,
-            "col": 0
-          }
-        ],
-        "spangram": false
-      },
-      {
-        "word": "ओदनम्",
-        "transliteration": "odanam",
-        "audioPath": "https://zat.am/bp26/imgs/bp07/u12.mp3",
-        "tokens": [
-          "ओ",
-          "द",
-          "न",
-          "म्"
-        ],
-        "id": "w8",
-        "meaning": "",
-        "path": [
-          {
-            "row": 3,
-            "col": 2
           },
           {
             "row": 4,
-            "col": 3
+            "col": 0
           },
           {
-            "row": 5,
-            "col": 3
+            "row": 4,
+            "col": 1
           },
           {
-            "row": 5,
-            "col": 4
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 3
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "footwear / shoes"
+      },
+      {
+        "id": "w7",
+        "word": "उपनेत्रम्",
+        "transliteration": "upanetram",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u09.mp3",
+        "tokens": [
+          "उ",
+          "प",
+          "ने",
+          "त्र",
+          "म्"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 2,
+            "col": 0
+          },
+          {
+            "row": 3,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "eyeglasses"
+      },
+      {
+        "id": "w8",
+        "word": "सोपानम्",
+        "transliteration": "sopānam",
+        "audioPath": "https://zat.am/bp26/imgs/bp07/u10.mp3",
+        "tokens": [
+          "सो",
+          "पा",
+          "न",
+          "म्"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 1
+          },
+          {
+            "row": 3,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "stairs / staircase"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 8,
     "startingHints": 2,
     "themeWordPoints": 20,
-    "spangramPoints": 50,
+    "featuredWordPoints": 50,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 160,
     "speedBonusLossPerMinute": 15,
@@ -1876,56 +2755,57 @@
     "cols": 6,
     "grid": [
       [
-        "र्जा",
-        "नः",
-        "रः",
-        "र्जा",
-        "रः",
-        "अ"
-      ],
-      [
-        "मा",
-        "रः",
-        "म",
-        "कः",
-        "ष",
-        "जः"
-      ],
-      [
+        "र्मः",
+        "अ",
         "जः",
-        "र्मः",
-        "ष",
-        "क",
         "मा",
-        "जः"
+        "र्जा",
+        "रः"
       ],
       [
-        "मी",
         "कू",
-        "रः",
         "मू",
-        "अ",
-        "अ"
-      ],
-      [
-        "र्मः",
-        "शु",
-        "न",
-        "श्वः",
-        "अ",
-        "श्वः"
-      ],
-      [
-        "मी",
-        "नः",
-        "मी",
         "कः",
+        "भः",
         "क",
-        "मू"
+        "म"
+      ],
+      [
+        "कः",
+        "ष",
+        "द",
+        "खा",
+        "र्द",
+        "रः"
+      ],
+      [
+        "न",
+        "व",
+        "धा",
+        "ति",
+        "ग",
+        "म"
+      ],
+      [
+        "शु",
+        "ति",
+        "ति",
+        "पि",
+        "डः",
+        "ण्डू"
+      ],
+      [
+        "अ",
+        "श्वः",
+        "ब",
+        "क्रो",
+        "चि",
+        "कः"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "अश्वः",
         "transliteration": "aśvaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp02/u01.mp3",
@@ -1933,21 +2813,22 @@
           "अ",
           "श्वः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 4
+            "row": 5,
+            "col": 0
           },
           {
-            "row": 4,
-            "col": 5
+            "row": 5,
+            "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "horse"
       },
       {
+        "id": "w2",
         "word": "शुनकः",
         "transliteration": "śunakaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp02/u02.mp3",
@@ -1956,25 +2837,26 @@
           "न",
           "कः"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
             "row": 4,
-            "col": 1
+            "col": 0
           },
           {
-            "row": 4,
-            "col": 2
+            "row": 3,
+            "col": 0
           },
           {
-            "row": 5,
-            "col": 3
+            "row": 2,
+            "col": 0
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "dog"
       },
       {
+        "id": "w3",
         "word": "कूर्मः",
         "transliteration": "kūrmaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp08/u03.mp3",
@@ -1982,21 +2864,22 @@
           "कू",
           "र्मः"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 1
+            "row": 1,
+            "col": 0
           },
           {
-            "row": 4,
+            "row": 0,
             "col": 0
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "tortoise / turtle"
       },
       {
+        "id": "w4",
         "word": "अजः",
         "transliteration": "ajaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp08/u04.mp3",
@@ -2004,21 +2887,22 @@
           "अ",
           "जः"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
           {
             "row": 0,
-            "col": 5
+            "col": 1
           },
           {
-            "row": 1,
-            "col": 5
+            "row": 0,
+            "col": 2
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "goat"
       },
       {
+        "id": "w5",
         "word": "मूषकः",
         "transliteration": "mūṣakaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp08/u05.mp3",
@@ -2027,25 +2911,26 @@
           "ष",
           "कः"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 3
+            "row": 1,
+            "col": 1
           },
           {
             "row": 2,
-            "col": 2
+            "col": 1
           },
           {
             "row": 1,
-            "col": 3
+            "col": 2
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "mouse"
       },
       {
+        "id": "w6",
         "word": "मार्जारः",
         "transliteration": "mārjāraḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp08/u06.mp3",
@@ -2054,25 +2939,26 @@
           "र्जा",
           "रः"
         ],
-        "id": "w6",
-        "meaning": "",
         "path": [
           {
-            "row": 1,
-            "col": 0
+            "row": 0,
+            "col": 3
           },
           {
             "row": 0,
-            "col": 0
+            "col": 4
           },
           {
-            "row": 1,
-            "col": 1
+            "row": 0,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "cat"
       },
       {
+        "id": "w7",
         "word": "मकरः",
         "transliteration": "makaraḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp08/u07.mp3",
@@ -2081,51 +2967,198 @@
           "क",
           "रः"
         ],
-        "id": "w7",
-        "meaning": "",
         "path": [
           {
             "row": 1,
-            "col": 2
+            "col": 5
           },
+          {
+            "row": 1,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 5
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "crocodile"
+      },
+      {
+        "id": "w8",
+        "word": "मण्डूकः",
+        "transliteration": "maṇḍūkaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp08/u09.mp3",
+        "tokens": [
+          "म",
+          "ण्डू",
+          "कः"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 5
+          },
+          {
+            "row": 4,
+            "col": 5
+          },
+          {
+            "row": 5,
+            "col": 5
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "frog"
+      },
+      {
+        "id": "b1",
+        "word": "चिक्रोडः",
+        "transliteration": "cikroḍaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp08/u11.mp3",
+        "tokens": [
+          "चि",
+          "क्रो",
+          "डः"
+        ],
+        "path": [
+          {
+            "row": 5,
+            "col": 4
+          },
+          {
+            "row": 5,
+            "col": 3
+          },
+          {
+            "row": 4,
+            "col": 4
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "squirrel"
+      },
+      {
+        "id": "b2",
+        "word": "गर्दभः",
+        "transliteration": "gardabhaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp08/u12.mp3",
+        "tokens": [
+          "ग",
+          "र्द",
+          "भः"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 3
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "donkey"
+      },
+      {
+        "id": "b3",
+        "word": "खादति",
+        "transliteration": "khādati",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u13.mp3",
+        "tokens": [
+          "खा",
+          "द",
+          "ति"
+        ],
+        "path": [
           {
             "row": 2,
             "col": 3
           },
           {
-            "row": 3,
+            "row": 2,
             "col": 2
+          },
+          {
+            "row": 3,
+            "col": 3
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": true,
+        "meaning": "eats"
       },
       {
-        "word": "मीनः",
-        "transliteration": "mīnaḥ",
-        "audioPath": "https://zat.am/bp26/imgs/bp08/u08.mp3",
+        "id": "b4",
+        "word": "पिबति",
+        "transliteration": "pibati",
+        "audioPath": "https://zat.am/bp26/imgs/bp02/u14.mp3",
         "tokens": [
-          "मी",
-          "नः"
+          "पि",
+          "ब",
+          "ति"
         ],
-        "id": "w8",
-        "meaning": "",
         "path": [
+          {
+            "row": 4,
+            "col": 3
+          },
           {
             "row": 5,
             "col": 2
           },
           {
-            "row": 5,
+            "row": 4,
             "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": true,
+        "meaning": "drinks"
+      },
+      {
+        "id": "b5",
+        "word": "धावति",
+        "transliteration": "dhāvati",
+        "audioPath": "https://zat.am/bp26/imgs/bp08/u15.mp3",
+        "tokens": [
+          "धा",
+          "व",
+          "ति"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "runs"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 8,
     "startingHints": 2,
     "themeWordPoints": 25,
-    "spangramPoints": 60,
+    "featuredWordPoints": 60,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 170,
     "speedBonusLossPerMinute": 15,
@@ -2147,56 +3180,57 @@
     "cols": 6,
     "grid": [
       [
-        "न",
-        "र्पः",
-        "व्या",
-        "ष्ट्रः",
-        "हः",
-        "शः"
+        "वि",
+        "ति",
+        "त्रो",
+        "चि",
+        "रि",
+        "ह"
       ],
       [
-        "रि",
-        "र्पः",
-        "घ्रः",
-        "सिं",
+        "प",
         "श",
-        "रा"
-      ],
-      [
-        "हः",
-        "स",
-        "सिं",
-        "उ",
-        "व",
-        "भ"
-      ],
-      [
-        "रि",
-        "हः",
+        "ष्ठ",
         "ष्ट्रः",
-        "कः",
-        "कः",
-        "ल्लू"
+        "णः",
+        "कः"
       ],
       [
         "उ",
-        "रि",
-        "ह",
-        "वा",
-        "रः",
-        "व"
+        "ति",
+        "त्ति",
+        "ग",
+        "ल्लू",
+        "व्या"
       ],
       [
-        "णः",
-        "रि",
-        "ह",
+        "हः",
+        "उ",
+        "जः",
         "भ",
+        "र्पः",
+        "घ्रः"
+      ],
+      [
+        "रा",
+        "उ",
+        "ष्ट्रः",
+        "वा",
+        "स",
+        "श"
+      ],
+      [
+        "व",
+        "रः",
         "न",
-        "ष्ट्रः"
+        "हः",
+        "सिं",
+        "शः"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "व्याघ्रः",
         "transliteration": "vyāghraḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp09/u01.mp3",
@@ -2204,21 +3238,22 @@
           "व्या",
           "घ्रः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
-            "row": 0,
-            "col": 2
+            "row": 2,
+            "col": 5
           },
           {
-            "row": 1,
-            "col": 2
+            "row": 3,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "tiger"
       },
       {
+        "id": "w2",
         "word": "शशः",
         "transliteration": "śaśaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp09/u02.mp3",
@@ -2226,21 +3261,22 @@
           "श",
           "शः"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
-            "row": 1,
-            "col": 4
+            "row": 4,
+            "col": 5
           },
           {
-            "row": 0,
+            "row": 5,
             "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "rabbit / hare"
       },
       {
+        "id": "w3",
         "word": "सिंहः",
         "transliteration": "simhaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp09/u03.mp3",
@@ -2248,21 +3284,22 @@
           "सिं",
           "हः"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
-            "col": 2
+            "row": 5,
+            "col": 4
           },
           {
-            "row": 3,
-            "col": 1
+            "row": 5,
+            "col": 3
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "lion"
       },
       {
+        "id": "w4",
         "word": "सर्पः",
         "transliteration": "sarpaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp09/u04.mp3",
@@ -2270,21 +3307,22 @@
           "स",
           "र्पः"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
-            "col": 1
+            "row": 4,
+            "col": 4
           },
           {
-            "row": 1,
-            "col": 1
+            "row": 3,
+            "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "snake"
       },
       {
+        "id": "w5",
         "word": "वानरः",
         "transliteration": "vānaraḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp09/u05.mp3",
@@ -2293,8 +3331,6 @@
           "न",
           "रः"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
             "row": 4,
@@ -2302,16 +3338,19 @@
           },
           {
             "row": 5,
-            "col": 4
+            "col": 2
           },
           {
-            "row": 4,
-            "col": 4
+            "row": 5,
+            "col": 1
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "monkey"
       },
       {
+        "id": "w6",
         "word": "वराहः",
         "transliteration": "varāhaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp09/u06.mp3",
@@ -2320,25 +3359,26 @@
           "रा",
           "हः"
         ],
-        "id": "w6",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
-            "col": 4
+            "row": 5,
+            "col": 0
           },
           {
-            "row": 1,
-            "col": 5
+            "row": 4,
+            "col": 0
           },
           {
-            "row": 0,
-            "col": 4
+            "row": 3,
+            "col": 0
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "boar / pig"
       },
       {
+        "id": "w7",
         "word": "उष्ट्रः",
         "transliteration": "uṣṭraḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp09/u07.mp3",
@@ -2346,8 +3386,113 @@
           "उ",
           "ष्ट्रः"
         ],
-        "id": "w7",
-        "meaning": "",
+        "path": [
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "camel"
+      },
+      {
+        "id": "w8",
+        "word": "भल्लूकः",
+        "transliteration": "bhallūkaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u08.mp3",
+        "tokens": [
+          "भ",
+          "ल्लू",
+          "कः"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 5
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "bear"
+      },
+      {
+        "id": "w9",
+        "word": "हरिणः",
+        "transliteration": "hariṇaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u09.mp3",
+        "tokens": [
+          "ह",
+          "रि",
+          "णः"
+        ],
+        "path": [
+          {
+            "row": 0,
+            "col": 5
+          },
+          {
+            "row": 0,
+            "col": 4
+          },
+          {
+            "row": 1,
+            "col": 4
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "deer"
+      },
+      {
+        "id": "b1",
+        "word": "चित्रोष्ट्रः",
+        "transliteration": "citroṣṭraḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u10.mp3",
+        "tokens": [
+          "चि",
+          "त्रो",
+          "ष्ट्रः"
+        ],
+        "path": [
+          {
+            "row": 0,
+            "col": 3
+          },
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 3
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "giraffe"
+      },
+      {
+        "id": "b2",
+        "word": "गजः",
+        "transliteration": "gajaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp03/u02.mp3",
+        "tokens": [
+          "ग",
+          "जः"
+        ],
         "path": [
           {
             "row": 2,
@@ -2358,67 +3503,87 @@
             "col": 2
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": true,
+        "meaning": "elephant"
       },
       {
-        "word": "भल्लूकः",
-        "transliteration": "bhallūkaḥ",
-        "audioPath": "https://zat.am/bp26/imgs/bp09/u08.mp3",
+        "id": "b3",
+        "word": "उत्तिष्ठति",
+        "transliteration": "uttiṣṭhati",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u13.mp3",
         "tokens": [
-          "भ",
-          "ल्लू",
-          "कः"
+          "उ",
+          "त्ति",
+          "ष्ठ",
+          "ति"
         ],
-        "id": "w8",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
-            "col": 5
-          },
-          {
             "row": 3,
-            "col": 5
-          },
-          {
-            "row": 3,
-            "col": 4
-          }
-        ],
-        "spangram": false
-      },
-      {
-        "word": "हरिणः",
-        "transliteration": "hariṇaḥ",
-        "audioPath": "https://zat.am/bp26/imgs/bp09/u09.mp3",
-        "tokens": [
-          "ह",
-          "रि",
-          "णः"
-        ],
-        "id": "w9",
-        "meaning": "",
-        "path": [
-          {
-            "row": 4,
-            "col": 2
-          },
-          {
-            "row": 5,
             "col": 1
           },
           {
-            "row": 5,
-            "col": 0
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": true,
+        "meaning": "stands up / gets up"
+      },
+      {
+        "id": "b4",
+        "word": "उपविशति",
+        "transliteration": "upaviśati",
+        "audioPath": "https://zat.am/bp26/imgs/bp09/u14.mp3",
+        "tokens": [
+          "उ",
+          "प",
+          "वि",
+          "श",
+          "ति"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 0,
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 0,
+            "col": 1
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "sits down"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 9,
     "startingHints": 1,
     "themeWordPoints": 25,
-    "spangramPoints": 60,
+    "featuredWordPoints": 60,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 180,
     "speedBonusLossPerMinute": 15,
@@ -2440,56 +3605,57 @@
     "cols": 6,
     "grid": [
       [
-        "न्द्रः",
-        "पः",
-        "वृ",
-        "पः",
-        "पः",
-        "म्"
-      ],
-      [
         "उ",
-        "क्षः",
-        "अ",
-        "ग्नि",
-        "कू",
+        "म्",
+        "त्र",
+        "क्ष",
+        "पः",
         "द्वी"
       ],
       [
-        "नी",
+        "द्या",
+        "न",
         "म्",
-        "त्र",
-        "प",
-        "र्व",
+        "न",
+        "कू",
         "तः"
       ],
       [
-        "चा",
+        "लः",
+        "न",
+        "अ",
         "डः",
-        "क्ष",
-        "न",
-        "न्द्रः",
-        "द्वी"
-      ],
-      [
-        "इ",
         "पः",
-        "म्",
-        "न",
-        "द्या",
-        "च"
+        "र्व"
       ],
       [
-        "क्ष",
-        "न्द्र",
-        "चा",
-        "उ",
+        "तृ",
+        "ण",
         "वृ",
-        "न्द्र"
+        "नी",
+        "प",
+        "ग्नि"
+      ],
+      [
+        "म्",
+        "हि",
+        "क्षः",
+        "इ",
+        "अ",
+        "पः"
+      ],
+      [
+        "म्",
+        "म",
+        "च",
+        "न्द्रः",
+        "न्द्र",
+        "चा"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "वृक्षः",
         "transliteration": "vr̥kṣaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp02/u03.mp3",
@@ -2497,21 +3663,22 @@
           "वृ",
           "क्षः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
-            "row": 0,
+            "row": 3,
             "col": 2
           },
           {
-            "row": 1,
-            "col": 1
+            "row": 4,
+            "col": 2
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "tree"
       },
       {
+        "id": "w2",
         "word": "चन्द्रः",
         "transliteration": "candraḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp10/u02.mp3",
@@ -2519,21 +3686,22 @@
           "च",
           "न्द्रः"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
-            "row": 4,
-            "col": 5
+            "row": 5,
+            "col": 2
           },
           {
-            "row": 3,
-            "col": 4
+            "row": 5,
+            "col": 3
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "moon"
       },
       {
+        "id": "w3",
         "word": "इन्द्रचापः",
         "transliteration": "indracāpaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp10/u03.mp3",
@@ -2543,29 +3711,30 @@
           "चा",
           "पः"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
             "row": 4,
-            "col": 0
+            "col": 3
           },
           {
             "row": 5,
-            "col": 1
+            "col": 4
           },
           {
             "row": 5,
-            "col": 2
+            "col": 5
           },
           {
             "row": 4,
-            "col": 1
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "rainbow"
       },
       {
+        "id": "w4",
         "word": "अग्निपर्वतः",
         "transliteration": "agniparvataḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp10/u04.mp3",
@@ -2576,33 +3745,34 @@
           "र्व",
           "तः"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
           {
-            "row": 1,
-            "col": 2
+            "row": 4,
+            "col": 4
           },
           {
-            "row": 1,
-            "col": 3
+            "row": 3,
+            "col": 5
           },
           {
-            "row": 2,
-            "col": 3
-          },
-          {
-            "row": 2,
+            "row": 3,
             "col": 4
           },
           {
             "row": 2,
             "col": 5
+          },
+          {
+            "row": 1,
+            "col": 5
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "volcano"
       },
       {
+        "id": "w5",
         "word": "द्वीपः",
         "transliteration": "dvīpaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp10/u05.mp3",
@@ -2610,11 +3780,9 @@
           "द्वी",
           "पः"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
-            "row": 1,
+            "row": 0,
             "col": 5
           },
           {
@@ -2622,9 +3790,12 @@
             "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "island"
       },
       {
+        "id": "w6",
         "word": "कूपः",
         "transliteration": "kūpaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp10/u07.mp3",
@@ -2632,21 +3803,22 @@
           "कू",
           "पः"
         ],
-        "id": "w6",
-        "meaning": "",
         "path": [
           {
             "row": 1,
             "col": 4
           },
           {
-            "row": 0,
-            "col": 3
+            "row": 2,
+            "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "well"
       },
       {
+        "id": "w7",
         "word": "नीडः",
         "transliteration": "nīḍaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp10/u08.mp3",
@@ -2654,21 +3826,22 @@
           "नी",
           "डः"
         ],
-        "id": "w7",
-        "meaning": "",
         "path": [
           {
-            "row": 2,
-            "col": 0
+            "row": 3,
+            "col": 3
           },
           {
-            "row": 3,
-            "col": 1
+            "row": 2,
+            "col": 3
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "nest"
       },
       {
+        "id": "w8",
         "word": "नक्षत्रम्",
         "transliteration": "nakṣatram",
         "audioPath": "https://zat.am/bp26/imgs/bp03/u11.mp3",
@@ -2678,29 +3851,30 @@
           "त्र",
           "म्"
         ],
-        "id": "w8",
-        "meaning": "",
         "path": [
           {
-            "row": 4,
+            "row": 1,
             "col": 3
           },
           {
-            "row": 3,
+            "row": 0,
+            "col": 3
+          },
+          {
+            "row": 0,
             "col": 2
           },
           {
-            "row": 2,
-            "col": 2
-          },
-          {
-            "row": 2,
+            "row": 0,
             "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "star"
       },
       {
+        "id": "w9",
         "word": "उद्यानम्",
         "transliteration": "udyānam",
         "audioPath": "https://zat.am/bp26/imgs/bp10/u10.mp3",
@@ -2710,33 +3884,118 @@
           "न",
           "म्"
         ],
-        "id": "w9",
-        "meaning": "",
         "path": [
           {
-            "row": 5,
-            "col": 3
+            "row": 0,
+            "col": 0
           },
           {
-            "row": 4,
-            "col": 4
+            "row": 1,
+            "col": 0
           },
           {
-            "row": 3,
-            "col": 3
+            "row": 1,
+            "col": 1
           },
           {
-            "row": 4,
+            "row": 1,
             "col": 2
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "garden / park"
+      },
+      {
+        "id": "b1",
+        "word": "अनलः",
+        "transliteration": "analaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp10/u06.mp3",
+        "tokens": [
+          "अ",
+          "न",
+          "लः"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 2,
+            "col": 1
+          },
+          {
+            "row": 2,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "fire"
+      },
+      {
+        "id": "b2",
+        "word": "तृणम्",
+        "transliteration": "tṛṇam",
+        "audioPath": "https://zat.am/bp26/imgs/bp10/u11.mp3",
+        "tokens": [
+          "तृ",
+          "ण",
+          "म्"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 0
+          },
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "grass"
+      },
+      {
+        "id": "b3",
+        "word": "हिमम्",
+        "transliteration": "himam",
+        "audioPath": "https://zat.am/bp26/imgs/bp10/u12.mp3",
+        "tokens": [
+          "हि",
+          "म",
+          "म्"
+        ],
+        "path": [
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 5,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "snow / ice"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 9,
     "startingHints": 1,
     "themeWordPoints": 25,
-    "spangramPoints": 60,
+    "featuredWordPoints": 60,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 190,
     "speedBonusLossPerMinute": 15,
@@ -2758,56 +4017,57 @@
     "cols": 6,
     "grid": [
       [
-        "का",
-        "कः",
-        "शु",
+        "डः",
+        "रु",
+        "ग",
         "तः",
-        "तः",
-        "क"
-      ],
-      [
-        "कः",
-        "पो",
         "क",
-        "क्कु",
-        "कु",
-        "डः"
-      ],
-      [
-        "सः",
-        "तः",
-        "टः",
-        "लू",
-        "कः",
-        "रु"
+        "टः"
       ],
       [
         "हं",
-        "म",
-        "डः",
-        "उ",
-        "ग",
-        "शु"
-      ],
-      [
-        "उ",
-        "रः",
-        "यू",
-        "रः",
-        "कः",
-        "कि"
+        "सः",
+        "कि",
+        "लः",
+        "पो",
+        "क्कु"
       ],
       [
         "का",
+        "को",
+        "ट",
+        "च",
+        "शु",
+        "कु"
+      ],
+      [
         "कः",
-        "शु",
-        "शु",
-        "लः",
-        "को"
+        "ड",
+        "कः",
+        "कः",
+        "कः",
+        "कः"
+      ],
+      [
+        "क",
+        " ",
+        "य",
+        "ब",
+        "लू",
+        "उ"
+      ],
+      [
+        "रो",
+        "ति",
+        "नं",
+        "म",
+        "यू",
+        "रः"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "मयूरः",
         "transliteration": "mayūraḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp03/u01.mp3",
@@ -2816,25 +4076,26 @@
           "यू",
           "रः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 1
-          },
-          {
-            "row": 4,
-            "col": 2
-          },
-          {
-            "row": 4,
+            "row": 5,
             "col": 3
+          },
+          {
+            "row": 5,
+            "col": 4
+          },
+          {
+            "row": 5,
+            "col": 5
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "peacock"
       },
       {
+        "id": "w2",
         "word": "उलूकः",
         "transliteration": "ulūkaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp11/u02.mp3",
@@ -2843,25 +4104,26 @@
           "लू",
           "कः"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 3
+            "row": 4,
+            "col": 5
           },
           {
-            "row": 2,
-            "col": 3
-          },
-          {
-            "row": 2,
+            "row": 4,
             "col": 4
+          },
+          {
+            "row": 3,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "owl"
       },
       {
+        "id": "w3",
         "word": "कुक्कुटः",
         "transliteration": "kukkuṭaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp11/u03.mp3",
@@ -2870,25 +4132,26 @@
           "क्कु",
           "टः"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
-            "row": 1,
-            "col": 4
-          },
-          {
-            "row": 1,
-            "col": 3
-          },
-          {
             "row": 2,
-            "col": 2
+            "col": 5
+          },
+          {
+            "row": 1,
+            "col": 5
+          },
+          {
+            "row": 0,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "rooster / chicken"
       },
       {
+        "id": "w4",
         "word": "कपोतः",
         "transliteration": "kapotaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp11/u04.mp3",
@@ -2897,25 +4160,26 @@
           "पो",
           "तः"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
           {
-            "row": 1,
-            "col": 2
+            "row": 0,
+            "col": 4
           },
           {
             "row": 1,
-            "col": 1
+            "col": 4
           },
           {
-            "row": 2,
-            "col": 1
+            "row": 0,
+            "col": 3
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "pigeon / dove"
       },
       {
+        "id": "w5",
         "word": "गरुडः",
         "transliteration": "garuḍaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp11/u05.mp3",
@@ -2924,25 +4188,26 @@
           "रु",
           "डः"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
-            "col": 4
+            "row": 0,
+            "col": 2
           },
           {
-            "row": 2,
-            "col": 5
+            "row": 0,
+            "col": 1
           },
           {
-            "row": 1,
-            "col": 5
+            "row": 0,
+            "col": 0
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "eagle"
       },
       {
+        "id": "w6",
         "word": "हंसः",
         "transliteration": "hamsaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp11/u06.mp3",
@@ -2950,21 +4215,22 @@
           "हं",
           "सः"
         ],
-        "id": "w6",
-        "meaning": "",
         "path": [
           {
-            "row": 3,
+            "row": 1,
             "col": 0
           },
           {
-            "row": 2,
-            "col": 0
+            "row": 1,
+            "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "swan"
       },
       {
+        "id": "w7",
         "word": "काकः",
         "transliteration": "kākaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp11/u07.mp3",
@@ -2972,9 +4238,157 @@
           "का",
           "कः"
         ],
-        "id": "w7",
-        "meaning": "",
         "path": [
+          {
+            "row": 2,
+            "col": 0
+          },
+          {
+            "row": 3,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "crow"
+      },
+      {
+        "id": "w8",
+        "word": "कोकिलः",
+        "transliteration": "kokilaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u08.mp3",
+        "tokens": [
+          "को",
+          "कि",
+          "लः"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 2
+          },
+          {
+            "row": 1,
+            "col": 3
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "cuckoo"
+      },
+      {
+        "id": "w9",
+        "word": "शुकः",
+        "transliteration": "śukaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u09.mp3",
+        "tokens": [
+          "शु",
+          "कः"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 4
+          }
+        ],
+        "featured": false,
+        "bonus": false,
+        "meaning": "parrot"
+      },
+      {
+        "id": "b1",
+        "word": "चटकः",
+        "transliteration": "caṭakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u10.mp3",
+        "tokens": [
+          "च",
+          "ट",
+          "कः"
+        ],
+        "path": [
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 3
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "sparrow"
+      },
+      {
+        "id": "b2",
+        "word": "बकः",
+        "transliteration": "bakaḥ",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u11.mp3",
+        "tokens": [
+          "ब",
+          "कः"
+        ],
+        "path": [
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 2
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "crane / heron"
+      },
+      {
+        "id": "b3",
+        "word": "डयनं करोति",
+        "transliteration": "",
+        "audioPath": "https://zat.am/bp26/imgs/bp11/u13.mp3",
+        "tokens": [
+          "ड",
+          "य",
+          "नं",
+          " ",
+          "क",
+          "रो",
+          "ति"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 5,
+            "col": 2
+          },
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 0
+          },
           {
             "row": 5,
             "col": 0
@@ -2984,62 +4398,16 @@
             "col": 1
           }
         ],
-        "spangram": false
-      },
-      {
-        "word": "कोकिलः",
-        "transliteration": "kokilaḥ",
-        "audioPath": "https://zat.am/bp26/imgs/bp11/u08.mp3",
-        "tokens": [
-          "को",
-          "कि",
-          "लः"
-        ],
-        "id": "w8",
-        "meaning": "",
-        "path": [
-          {
-            "row": 5,
-            "col": 5
-          },
-          {
-            "row": 4,
-            "col": 5
-          },
-          {
-            "row": 5,
-            "col": 4
-          }
-        ],
-        "spangram": false
-      },
-      {
-        "word": "शुकः",
-        "transliteration": "śukaḥ",
-        "audioPath": "https://zat.am/bp26/imgs/bp11/u09.mp3",
-        "tokens": [
-          "शु",
-          "कः"
-        ],
-        "id": "w9",
-        "meaning": "",
-        "path": [
-          {
-            "row": 5,
-            "col": 3
-          },
-          {
-            "row": 4,
-            "col": 4
-          }
-        ],
-        "spangram": false
+        "featured": false,
+        "bonus": true,
+        "meaning": "flies"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 9,
     "startingHints": 1,
     "themeWordPoints": 25,
-    "spangramPoints": 60,
+    "featuredWordPoints": 60,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 200,
     "speedBonusLossPerMinute": 15,
@@ -3061,56 +4429,57 @@
     "cols": 6,
     "grid": [
       [
+        "ल",
         "श",
-        "कः",
-        "वृ",
-        "कः",
-        "श",
-        "भः"
-      ],
-      [
         "म",
-        "श्चि",
-        "कः",
+        "रः",
         "म्बू",
-        "पि",
-        "ल"
+        "कः"
       ],
       [
+        "भः",
+        "भ्र",
         "कः",
-        "ङ्गः",
-        "त",
-        "टः",
         "श",
-        "पी"
-      ],
-      [
-        "पी",
-        "प",
-        "र्क",
-        "का",
-        "लि",
-        "ङ्गः"
-      ],
-      [
-        "त्र",
-        "त्र",
-        "क",
-        "म",
-        "ना",
+        "र्ण",
         "ऊ"
       ],
       [
-        "कः",
-        "चि",
-        "भ्र",
-        "रः",
+        "लि",
+        "पी",
+        "श्चि",
+        "वृ",
         "भः",
-        "र्ण"
+        "ना"
+      ],
+      [
+        "अ",
+        "का",
+        "पि",
+        "त",
+        "श",
+        "म"
+      ],
+      [
+        "रो",
+        "व",
+        "टः",
+        "ङ्गः",
+        "प",
+        "कः"
+      ],
+      [
+        "ति",
+        "ह",
+        "र्क",
+        "क",
+        "त्र",
+        "चि"
       ]
     ],
     "targets": [
       {
+        "id": "w1",
         "word": "वृश्चिकः",
         "transliteration": "vṛścikaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp12/u01.mp3",
@@ -3119,25 +4488,26 @@
           "श्चि",
           "कः"
         ],
-        "id": "w1",
-        "meaning": "",
         "path": [
           {
-            "row": 0,
-            "col": 2
+            "row": 2,
+            "col": 3
           },
           {
-            "row": 1,
-            "col": 1
+            "row": 2,
+            "col": 2
           },
           {
             "row": 1,
             "col": 2
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "scorpion"
       },
       {
+        "id": "w2",
         "word": "शलभः",
         "transliteration": "śalabhaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp12/u02.mp3",
@@ -3146,25 +4516,26 @@
           "ल",
           "भः"
         ],
-        "id": "w2",
-        "meaning": "",
         "path": [
           {
             "row": 0,
-            "col": 4
-          },
-          {
-            "row": 1,
-            "col": 5
+            "col": 1
           },
           {
             "row": 0,
-            "col": 5
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 0
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "moth / grasshopper"
       },
       {
+        "id": "w3",
         "word": "भ्रमरः",
         "transliteration": "bhramaraḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp12/u03.mp3",
@@ -3173,25 +4544,26 @@
           "म",
           "रः"
         ],
-        "id": "w3",
-        "meaning": "",
         "path": [
           {
-            "row": 5,
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 0,
             "col": 2
           },
           {
-            "row": 4,
-            "col": 3
-          },
-          {
-            "row": 5,
+            "row": 0,
             "col": 3
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "bee / bumblebee"
       },
       {
+        "id": "w4",
         "word": "शम्बूकः",
         "transliteration": "śambūkaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp12/u04.mp3",
@@ -3200,25 +4572,26 @@
           "म्बू",
           "कः"
         ],
-        "id": "w4",
-        "meaning": "",
         "path": [
-          {
-            "row": 2,
-            "col": 4
-          },
           {
             "row": 1,
             "col": 3
           },
           {
             "row": 0,
-            "col": 3
+            "col": 4
+          },
+          {
+            "row": 0,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "snail"
       },
       {
+        "id": "w5",
         "word": "ऊर्णनाभः",
         "transliteration": "ūrṇanābhaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp12/u06.mp3",
@@ -3228,29 +4601,30 @@
           "ना",
           "भः"
         ],
-        "id": "w5",
-        "meaning": "",
         "path": [
           {
-            "row": 4,
+            "row": 1,
             "col": 5
           },
           {
-            "row": 5,
-            "col": 5
-          },
-          {
-            "row": 4,
+            "row": 1,
             "col": 4
           },
           {
-            "row": 5,
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 2,
             "col": 4
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "spider"
       },
       {
+        "id": "w6",
         "word": "मशकः",
         "transliteration": "maśakaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp12/u07.mp3",
@@ -3259,25 +4633,26 @@
           "श",
           "कः"
         ],
-        "id": "w6",
-        "meaning": "",
         "path": [
           {
-            "row": 1,
-            "col": 0
+            "row": 3,
+            "col": 5
           },
           {
-            "row": 0,
-            "col": 0
+            "row": 3,
+            "col": 4
           },
           {
-            "row": 0,
-            "col": 1
+            "row": 4,
+            "col": 5
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "mosquito"
       },
       {
+        "id": "w7",
         "word": "चित्रपतङ्गः",
         "transliteration": "citrapatangaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp12/u08.mp3",
@@ -3288,33 +4663,34 @@
           "त",
           "ङ्गः"
         ],
-        "id": "w7",
-        "meaning": "",
         "path": [
           {
             "row": 5,
-            "col": 1
+            "col": 5
+          },
+          {
+            "row": 5,
+            "col": 4
           },
           {
             "row": 4,
-            "col": 1
+            "col": 4
           },
           {
             "row": 3,
-            "col": 1
+            "col": 3
           },
           {
-            "row": 2,
-            "col": 2
-          },
-          {
-            "row": 2,
-            "col": 1
+            "row": 4,
+            "col": 3
           }
         ],
-        "spangram": true
+        "featured": true,
+        "bonus": false,
+        "meaning": "butterfly"
       },
       {
+        "id": "w8",
         "word": "कर्कटः",
         "transliteration": "karkaṭaḥ",
         "audioPath": "https://zat.am/bp26/imgs/bp12/u09.mp3",
@@ -3323,25 +4699,26 @@
           "र्क",
           "टः"
         ],
-        "id": "w8",
-        "meaning": "",
         "path": [
+          {
+            "row": 5,
+            "col": 3
+          },
+          {
+            "row": 5,
+            "col": 2
+          },
           {
             "row": 4,
             "col": 2
-          },
-          {
-            "row": 3,
-            "col": 2
-          },
-          {
-            "row": 2,
-            "col": 3
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "crab"
       },
       {
+        "id": "w9",
         "word": "पिपीलिका",
         "transliteration": "pipīlikā",
         "audioPath": "https://zat.am/bp26/imgs/bp12/u10.mp3",
@@ -3351,33 +4728,72 @@
           "लि",
           "का"
         ],
-        "id": "w9",
-        "meaning": "",
         "path": [
           {
-            "row": 1,
-            "col": 4
+            "row": 3,
+            "col": 2
           },
           {
             "row": 2,
-            "col": 5
+            "col": 1
+          },
+          {
+            "row": 2,
+            "col": 0
           },
           {
             "row": 3,
-            "col": 4
-          },
-          {
-            "row": 3,
-            "col": 3
+            "col": 1
           }
         ],
-        "spangram": false
+        "featured": false,
+        "bonus": false,
+        "meaning": "ant"
+      },
+      {
+        "id": "b1",
+        "word": "अवरोहति",
+        "transliteration": "avarohati",
+        "audioPath": "https://zat.am/bp26/imgs/bp12/u15.mp3",
+        "tokens": [
+          "अ",
+          "व",
+          "रो",
+          "ह",
+          "ति"
+        ],
+        "path": [
+          {
+            "row": 3,
+            "col": 0
+          },
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 0
+          },
+          {
+            "row": 5,
+            "col": 1
+          },
+          {
+            "row": 5,
+            "col": 0
+          }
+        ],
+        "featured": false,
+        "bonus": true,
+        "meaning": "descends / goes down"
       }
     ],
-    "bonusWords": [],
+    "requiredWordCount": 9,
     "startingHints": 1,
     "themeWordPoints": 25,
-    "spangramPoints": 60,
+    "featuredWordPoints": 60,
+    "bonusWordPoints": 5,
     "completionPoints": 100,
     "maxSpeedBonus": 210,
     "speedBonusLossPerMinute": 15,

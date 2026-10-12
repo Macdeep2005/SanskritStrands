@@ -19,6 +19,7 @@ const EN = {
   loseProgressBody:"Completed levels stay saved and can be replayed anytime, but unfinished words, elapsed time and this run's score are not saved.",
   stayContinue:'Stay & Continue', leaveLevel:'Leave Level', playPronunciation:'Play pronunciation',
   audioHelp:'Use the speaker beside a discovered word to hear its Sanskrit pronunciation again.'
+ , answersShown: 'Answers shown',words: 'words',findFeatured: 'Find the Featured Word',bonusWords: 'Bonus Words',
 };
 
 const SA = {
@@ -39,8 +40,7 @@ const SA = {
   replay:'पुनः क्रीडतु', nextTheme:'अग्रिमस्तरः', leavePuzzle:'स्तरं त्यजति?', loseProgress:'अस्य स्तरस्य वर्तमानप्रगतिः नश्यति।',
   loseProgressBody:'समाप्तस्तराः रक्षिताः भवन्ति तथा पुनः क्रीडितुं शक्यन्ते, किन्तु असमाप्तशब्दाः, गतसमयः, अस्यां क्रीडायाम् अङ्काश्च न रक्ष्यन्ते।',
   stayContinue:'अत्रैव तिष्ठतु', leaveLevel:'स्तरं त्यजतु', playPronunciation:'उच्चारणं शृणोतु',
-  audioHelp:'लब्धशब्दस्य समीपे ध्वनिचिह्नं नुदित्वा संस्कृतोच्चारणं पुनः शृणोतु।'
-};
+  audioHelp:'लब्धशब्दस्य समीपे ध्वनिचिह्नं नुदित्वा संस्कृतोच्चारणं पुनः शृणोतु।',answersShown: 'उत्तराणि दर्शितानि',words: 'पदानि',findFeatured: 'विशिष्टपदं अन्विष्यतु',bonusWords: 'अतिरिक्तपदानि',};
 
 export type TextKey = keyof typeof EN;
 export function tr(lang: Language, key: TextKey): string {

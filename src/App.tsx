@@ -67,6 +67,18 @@ export default function App() {
 
   const { user,loading,signingIn,login,logout } = useAuth();
   const theme = themes[active];
+  const requiredTargets = useMemo(
+  () => theme?.targets.filter((target) => !target.bonus) ?? [],
+  [theme],
+);
+
+const foundRequiredCount = useMemo(
+  () =>
+    requiredTargets.filter((target) =>
+      found.has(target.id),
+    ).length,
+  [requiredTargets, found],
+);
 
   useEffect(() => {
     loadThemes()
@@ -134,8 +146,13 @@ export default function App() {
     return () => window.clearInterval(timer);
   }, [started,done]);
 
-  const hasInProgressRun = Boolean(theme && started && !done && !answerMode && found.size < theme.targets.length);
-  useEffect(() => {
+const hasInProgressRun = Boolean(
+  theme &&
+  started &&
+  !done &&
+  !answerMode &&
+  foundRequiredCount < requiredTargets.length
+);  useEffect(() => {
     const warnBeforeUnload = (event:BeforeUnloadEvent) => {
       if (!hasInProgressRun) return;
       event.preventDefault();
@@ -205,8 +222,11 @@ export default function App() {
     if (target && !found.has(target.id)) {
       flashBoard('correct');
       const nextFound = new Set(found).add(target.id);
-      const gained = target.spangram ? theme.spangramPoints : theme.themeWordPoints;
-      const nextWordPoints = wordPoints + gained;
+    const gained = target.bonus
+    ? theme.bonusWordPoints
+    : target.featured
+      ? theme.featuredWordPoints
+      : theme.themeWordPoints;      const nextWordPoints = wordPoints + gained;
 
       setFound(nextFound);
       setWordPoints(nextWordPoints);
@@ -220,12 +240,30 @@ export default function App() {
       playWordAudio(target.audioPath,target.word).catch(() => undefined);
 
       setMessage(
-        target.spangram
-          ? (language === 'sa' ? `विशेषशब्दः! ${target.word} +${gained}` : `Spangram! ${target.word} +${gained}`)
-          : (language === 'sa' ? `${target.word} +${gained}` : `${target.word} — ${target.meaning} +${gained}`)
-      );
+  target.bonus
+    ? (
+        language === 'sa'
+          ? `अतिरिक्तशब्दः! ${target.word} +${gained}`
+          : `Bonus word! ${target.word} — ${target.meaning} +${gained}`
+      )
+    : target.featured
+      ? (
+          language === 'sa'
+            ? `विशिष्टशब्दः! ${target.word} +${gained}`
+            : `Featured Word! ${target.word} — ${target.meaning} +${gained}`
+        )
+      : (
+          language === 'sa'
+            ? `${target.word} +${gained}`
+            : `${target.word} — ${target.meaning} +${gained}`
+        )
+);
 
-      if (nextFound.size === theme.targets.length) {
+      const nextRequiredCount = requiredTargets.filter(
+        (item) => nextFound.has(item.id),
+      ).length;
+
+      if (nextRequiredCount === requiredTargets.length) {
         const finalBreakdown = calculateBreakdown(nextWordPoints);
         setBreakdown(finalBreakdown);
         setDone(true);
@@ -268,8 +306,12 @@ export default function App() {
 
   function useHint() {
     if (!theme || !started || hintsRemaining < 1 || done) return;
-    const target = theme.targets.find((item) => !found.has(item.id) && !revealed.has(item.id));
-    if (!target) {
+  const target = theme.targets.find(
+    (item) =>
+      !item.bonus &&
+      !found.has(item.id) &&
+      !revealed.has(item.id)
+  );    if (!target) {
       setMessage(language === 'sa'
         ? 'सर्वेषाम् अवशिष्टशब्दानां सूचना सक्रियाऽस्ति।'
         : 'Every remaining word already has a hint active.');
@@ -369,11 +411,27 @@ export default function App() {
             <section className="board-card">
               <div className="status-line">
                 <div><small>{tr(language,'currentMessage')}</small><strong>{message}</strong></div>
-                <span>{found.size}/{theme.targets.length} {tr(language,'found')}</span>
-              </div>
+                  <span>
+                    {answerMode
+                      ? 'Answers shown'
+                      : `${foundRequiredCount}/${requiredTargets.length} ${tr(language,'found')}`}
+                  </span>              </div>
               <div className="level-progress" aria-label={`${found.size} of ${theme.targets.length} words found`}>
-                <div className="level-progress-fill" style={{width:`${(found.size/theme.targets.length)*100}%`}} />
-              </div>
+                {!answerMode && (
+                <div className="level-progress">
+                  <div
+                    className="level-progress-fill"
+                    style={{
+                      width: `${
+                        requiredTargets.length
+                          ? (foundRequiredCount / requiredTargets.length) * 100
+                          : 0
+                      }%`,
+                    }}
+                  />
+                </div>
+              )}              
+              fix th</div>
 
               <TimerCard
                 elapsedSeconds={elapsedSeconds}
