@@ -1,5 +1,5 @@
-import type { Language, Theme } from '../types/gameTypes';
-import { playWordAudio } from '../services/audioService';
+import { useMemo } from 'react';
+import type { Language, Theme } from '../types/gameTypes';import { playWordAudio } from '../services/audioService';
 import { tr } from '../i18n';
 
 type Props = {
@@ -9,6 +9,16 @@ type Props = {
   language: Language;
   showAnswers?: boolean;
 };
+function shuffle<T>(items: T[]): T[] {
+  const copy = [...items];
+
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+
+  return copy;
+}
 
 export default function WordPanel({
   theme,
@@ -17,9 +27,21 @@ export default function WordPanel({
   language,
   showAnswers = false,
 }: Props) {
-  const required = theme.targets.filter((target) => !target.bonus);
-  const bonus = theme.targets.filter((target) => target.bonus);
+ const required = useMemo(
+  () =>
+    shuffle(
+      theme.targets.filter((target) => !target.bonus)
+    ),
+  [theme.id]
+);
 
+const bonus = useMemo(
+  () =>
+    shuffle(
+      theme.targets.filter((target) => target.bonus)
+    ),
+  [theme.id]
+);
   const foundRequired = required.filter((target) =>
     found.has(target.id),
   );
