@@ -43,7 +43,10 @@ export default function StrandBoard({
   theme.targets
     .filter((target) => found.has(target.id))
     .forEach((target) => target.path.forEach((cell) =>
-      foundCell.set(cellKey(cell), target.spangram ? 'sp' : 'found')
+     foundCell.set(
+      cellKey(cell),
+      target.featured ? 'sp' : 'found'
+    )
     ));
 
   const revealedTargets = theme.targets.filter((target) => showAnswers || revealed.has(target.id));
@@ -73,7 +76,7 @@ export default function StrandBoard({
     setGuideLines(
       revealedTargets.map((target) => ({
         id: target.id,
-        spangram: target.spangram,
+        spangram: target.featured,
         points: target.path.map(centerForCell),
       })),
     );

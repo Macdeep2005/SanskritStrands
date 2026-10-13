@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "validate:puzzles": "node scripts/validate-puzzles.mjs"
+    "validate:puzzles": "node scripts/validate-puzzles.mjs",
+    "test:boards": "node --experimental-strip-types scripts/test-random-boards.mjs",
+    "test:ci": "npm run validate:puzzles && npm run test:boards && npm run build"
   },
   "dependencies": {
     "firebase": "^12.19.0",
