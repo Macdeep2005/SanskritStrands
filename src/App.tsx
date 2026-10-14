@@ -1,7 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 
-import type { Cell, Language, ScoreBreakdown, Theme } from './types/gameTypes';
-
+import type {
+  Cell,
+  Language,
+  ScoreBreakdown,
+  Theme,
+  ThemeData,
+} from './types/gameTypes';
 import { loadThemes } from './services/themeService';
 
 import { pathText, targetForPath } from './utils/board';
@@ -40,14 +45,17 @@ import { generateBoard } from './utils/generateBoard';
 
 
 
-const COMPLETED_KEY = 'sanskrit-strands-completed-v7';
+const COMPLETED_KEY =
+  'sanskrit-strands-completed';
 
-const BEST_SCORES_KEY = 'sanskrit-strands-best-scores-v7';
+const BEST_SCORES_KEY =
+  'sanskrit-strands-best-scores';
 
-const LANGUAGE_KEY = 'sanskrit-strands-language';
+const LANGUAGE_KEY =
+  'sanskrit-strands-language';
 
-const TUTORIAL_KEY = 'sanskrit-strands-tutorial-seen-v5';
-
+const TUTORIAL_KEY =
+  'sanskrit-strands-tutorial-seen';
 type PendingExit = { type:'back' } | { type:'theme'; index:number } | null;
 
 
@@ -86,8 +94,8 @@ function loadLanguage(): Language {
 
 export default function App() {
 
-  const [themes,setThemes] = useState<Theme[]>([]);
-
+  const [themes,setThemes] =
+  useState<ThemeData[]>([]);
   const [loadError,setLoadError] = useState('');
 
   const [active,setActive] = useState(0);

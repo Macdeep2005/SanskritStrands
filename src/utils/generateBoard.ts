@@ -1,20 +1,9 @@
-import type { Cell, Theme, TargetWord } from '../types/gameTypes';
-
-/**
- * Runtime board generator for Sanskrit Strands.
- *
- * Important:
- * - The JSON still supplies the words + tokens.
- * - The grid and target paths used during gameplay are generated here.
- * - Every target receives a connected path.
- * - No cells overlap.
- * - The full 6x6 board is covered when the total number of tokens is 36.
- *
- * This uses a randomized serpentine ("snake") route across the whole board.
- * The targets are shuffled, then each word receives the next connected segment
- * of that route. This is intentionally simpler and safer than trying to place
- * every word independently at random.
- */
+import type {
+  Cell,
+  Theme,
+  ThemeData,
+  TargetWord,
+} from '../types/gameTypes';
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items];
@@ -99,8 +88,9 @@ function buildRoute(rows: number, cols: number): Cell[] {
 
   return route;
 }
-
-export function generateBoard(sourceTheme: Theme): Theme {
+export function generateBoard(
+  sourceTheme: ThemeData,
+): Theme {
   const totalCells = sourceTheme.rows * sourceTheme.cols;
 
   const totalTokens = sourceTheme.targets.reduce(

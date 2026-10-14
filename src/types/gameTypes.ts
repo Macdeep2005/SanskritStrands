@@ -1,7 +1,9 @@
-export type Cell = { row: number; col: number };
-export type RawCell = Cell | [number, number];
+export type Cell = {
+  row: number;
+  col: number;
+};
 
-export type TargetWord = {
+export type TargetWordData = {
   id: string;
 
   word: string;
@@ -11,13 +13,17 @@ export type TargetWord = {
   audioPath: string;
 
   tokens: string[];
-  path: Cell[];
 
   featured: boolean;
   bonus: boolean;
 };
 
-export type Theme = {
+export type TargetWord =
+  TargetWordData & {
+    path: Cell[];
+  };
+
+export type ThemeData = {
   id: string;
   order?: number;
 
@@ -32,16 +38,10 @@ export type Theme = {
   difficulty: string;
   difficultySanskrit: string;
 
-  pathDifficulty: 'starter' | 'two-direction' | 'multi-bend';
-
   rows: number;
   cols: number;
 
-  grid: string[][];
-
-  targets: TargetWord[];
-
-  requiredWordCount: number;
+  targets: TargetWordData[];
 
   startingHints: number;
 
@@ -59,7 +59,14 @@ export type Theme = {
   background: string;
 };
 
-export type Language = 'en' | 'sa';
+export type Theme =
+  Omit<ThemeData, 'targets'> & {
+    grid: string[][];
+    targets: TargetWord[];
+  };
+
+export type Language =
+  'en' | 'sa';
 
 export type ScoreBreakdown = {
   wordPoints: number;

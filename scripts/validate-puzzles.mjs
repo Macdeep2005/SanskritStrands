@@ -18,26 +18,6 @@ const themes = JSON.parse(
   fs.readFileSync(file, 'utf8'),
 );
 
-const normalize = (cell) =>
-  Array.isArray(cell)
-    ? {
-        row: Number(cell[0]),
-        col: Number(cell[1]),
-      }
-    : {
-        row: Number(cell.row),
-        col: Number(cell.col),
-      };
-
-const adjacent = (a, b) =>
-  Math.max(
-    Math.abs(a.row - b.row),
-    Math.abs(a.col - b.col),
-  ) === 1;
-
-const key = (cell) =>
-  `${cell.row}-${cell.col}`;
-
 if (
   !Array.isArray(themes) ||
   themes.length === 0
@@ -66,20 +46,6 @@ for (const theme of themes) {
   }
 
   if (
-    !Array.isArray(theme.grid) ||
-    theme.grid.length !== theme.rows ||
-    theme.grid.some(
-      (row) =>
-        !Array.isArray(row) ||
-        row.length !== theme.cols,
-    )
-  ) {
-    throw new Error(
-      `${theme.id}: wrong grid dimensions`,
-    );
-  }
-
-  if (
     !Array.isArray(theme.targets) ||
     theme.targets.length === 0
   ) {
@@ -99,22 +65,15 @@ for (const theme of themes) {
         target.featured === true,
     );
 
-  if (
-    required.length !==
-    theme.requiredWordCount
-  ) {
-    throw new Error(
-      `${theme.id}: requiredWordCount=${theme.requiredWordCount}, but found ${required.length} required targets`,
-    );
-  }
-
   if (featured.length !== 1) {
     throw new Error(
-      `${theme.id}: expected exactly one required featured word, found ${featured.length}`,
+      `${theme.id}: expected exactly one required featured word`,
     );
   }
 
-  const used = new Set();
+  let totalTokens = 0;
+
+  const ids = new Set();
 
   for (const target of theme.targets) {
     if (!target.id) {
@@ -122,6 +81,14 @@ for (const theme of themes) {
         `${theme.id}: target missing id`,
       );
     }
+
+    if (ids.has(target.id)) {
+      throw new Error(
+        `${theme.id}: duplicate target id "${target.id}"`,
+      );
+    }
+
+    ids.add(target.id);
 
     if (!target.word) {
       throw new Error(
@@ -138,18 +105,30 @@ for (const theme of themes) {
       );
     }
 
-    if (!Array.isArray(target.path)) {
+    if (
+      target.tokens.join('') !==
+      target.word
+    ) {
       throw new Error(
-        `${theme.id}/${target.word}: missing path`,
+        `${theme.id}/${target.word}: tokens do not spell the displayed word`,
       );
     }
 
     if (
-      target.path.length !==
-      target.tokens.length
+      typeof target.featured !==
+      'boolean'
     ) {
       throw new Error(
-        `${theme.id}/${target.word}: token/path length mismatch`,
+        `${theme.id}/${target.word}: featured must be boolean`,
+      );
+    }
+
+    if (
+      typeof target.bonus !==
+      'boolean'
+    ) {
+      throw new Error(
+        `${theme.id}/${target.word}: bonus must be boolean`,
       );
     }
 
@@ -163,87 +142,26 @@ for (const theme of themes) {
       );
     }
 
-    const cells =
-      target.path.map(normalize);
-
-    const rendered = [];
-
-    cells.forEach(
-      (cell, index) => {
-        if (
-          !Number.isInteger(cell.row) ||
-          !Number.isInteger(cell.col) ||
-          cell.row < 0 ||
-          cell.col < 0 ||
-          cell.row >= theme.rows ||
-          cell.col >= theme.cols
-        ) {
-          throw new Error(
-            `${theme.id}/${target.word}: invalid cell ${key(cell)}`,
-          );
-        }
-
-        if (
-          index > 0 &&
-          !adjacent(
-            cells[index - 1],
-            cell,
-          )
-        ) {
-          throw new Error(
-            `${theme.id}/${target.word}: path contains non-touching cells`,
-          );
-        }
-
-        const actual =
-          theme.grid[cell.row]?.[
-            cell.col
-          ];
-
-        const expected =
-          target.tokens[index];
-
-        if (actual !== expected) {
-          throw new Error(
-            `${theme.id}/${target.word}: expected "${expected}" at ${key(cell)}, found "${actual}"`,
-          );
-        }
-
-        if (used.has(key(cell))) {
-          throw new Error(
-            `${theme.id}: target paths overlap at ${key(cell)}`,
-          );
-        }
-
-        used.add(key(cell));
-        rendered.push(actual);
-      },
-    );
-
-    if (
-      rendered.join('') !==
-      target.word
-    ) {
-      throw new Error(
-        `${theme.id}/${target.word}: tokens do not spell the displayed word`,
-      );
-    }
+    totalTokens +=
+      target.tokens.length;
   }
 
   const totalCells =
     theme.rows * theme.cols;
 
-  if (used.size !== totalCells) {
-    console.warn(
-      `⚠ Level ${theme.order}: ${theme.titleEnglish} uses ${used.size}/${totalCells} cells`,
+  if (
+    totalTokens !== totalCells
+  ) {
+    throw new Error(
+      `${theme.id}: ${totalTokens} tokens for ${totalCells} cells`,
     );
   }
 
   console.log(
-    `✓ Level ${theme.order}: ${theme.titleEnglish} — ${theme.targets.length} targets, ${required.length} required, ${used.size}/${totalCells} cells`,
+    `✓ Level ${theme.order}: ${theme.titleEnglish} — ${theme.targets.length} targets, ${required.length} required, ${totalTokens}/${totalCells} tokens`,
   );
 }
 
 console.log(
-  `\n✓ Puzzle data validation passed for ${themes.length} levels.`,
+  `\n✓ Source theme validation passed for ${themes.length} levels.`,
 );
