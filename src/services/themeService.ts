@@ -1,3 +1,10 @@
+import {
+  collection,
+  getDocs,
+} from 'firebase/firestore';
+
+import { db } from '../firebase/firebase-config';
+
 import type {
   ThemeData,
 } from '../types/gameTypes';
@@ -6,43 +13,33 @@ function normalizeTheme(
   raw: any,
 ): ThemeData {
   const theme: ThemeData = {
-    id: String(
-      raw.id ?? '',
-    ),
+    id: String(raw.id ?? ''),
 
     order:
-      typeof raw.order ===
-      'number'
+      typeof raw.order === 'number'
         ? raw.order
         : undefined,
 
     titleSanskrit:
       String(
-        raw.titleSanskrit ??
-          '',
+        raw.titleSanskrit ?? '',
       ),
 
     titleEnglish:
       String(
-        raw.titleEnglish ??
-          '',
+        raw.titleEnglish ?? '',
       ),
 
     clue:
-      String(
-        raw.clue ?? '',
-      ),
+      String(raw.clue ?? ''),
 
     clueSanskrit:
       String(
-        raw.clueSanskrit ??
-          '',
+        raw.clueSanskrit ?? '',
       ),
 
     icon:
-      String(
-        raw.icon ?? '',
-      ),
+      String(raw.icon ?? ''),
 
     difficulty:
       String(
@@ -51,8 +48,7 @@ function normalizeTheme(
 
     difficultySanskrit:
       String(
-        raw.difficultySanskrit ??
-          '',
+        raw.difficultySanskrit ?? '',
       ),
 
     rows:
@@ -87,8 +83,7 @@ function normalizeTheme(
 
           audioPath:
             String(
-              target.audioPath ??
-                '',
+              target.audioPath ?? '',
             ),
 
           tokens:
@@ -100,9 +95,7 @@ function normalizeTheme(
                     token:
                       unknown,
                   ) =>
-                    String(
-                      token,
-                    ),
+                    String(token),
                 )
               : [],
 
@@ -120,14 +113,12 @@ function normalizeTheme(
 
     startingHints:
       Number(
-        raw.startingHints ??
-          0,
+        raw.startingHints ?? 0,
       ),
 
     themeWordPoints:
       Number(
-        raw.themeWordPoints ??
-          0,
+        raw.themeWordPoints ?? 0,
       ),
 
     featuredWordPoints:
@@ -138,20 +129,17 @@ function normalizeTheme(
 
     bonusWordPoints:
       Number(
-        raw.bonusWordPoints ??
-          0,
+        raw.bonusWordPoints ?? 0,
       ),
 
     completionPoints:
       Number(
-        raw.completionPoints ??
-          0,
+        raw.completionPoints ?? 0,
       ),
 
     maxSpeedBonus:
       Number(
-        raw.maxSpeedBonus ??
-          0,
+        raw.maxSpeedBonus ?? 0,
       ),
 
     speedBonusLossPerMinute:
@@ -162,8 +150,7 @@ function normalizeTheme(
 
     hintPenalty:
       Number(
-        raw.hintPenalty ??
-          0,
+        raw.hintPenalty ?? 0,
       ),
 
     background:
@@ -172,9 +159,7 @@ function normalizeTheme(
       ),
   };
 
-  validateThemeData(
-    theme,
-  );
+  validateThemeData(theme);
 
   return theme;
 }
@@ -194,12 +179,10 @@ function validateThemeData(
     ) ||
     !Number.isInteger(
       theme.cols,
-    ) ||
-    theme.rows < 1 ||
-    theme.cols < 1
+    )
   ) {
     throw new Error(
-      `${theme.titleEnglish}: invalid rows/cols.`,
+      `${theme.titleEnglish}: invalid board size.`,
     );
   }
 
@@ -207,11 +190,10 @@ function validateThemeData(
     !Array.isArray(
       theme.targets,
     ) ||
-    theme.targets.length ===
-      0
+    theme.targets.length === 0
   ) {
     throw new Error(
-      `${theme.titleEnglish}: no targets were provided.`,
+      `${theme.titleEnglish}: no targets found.`,
     );
   }
 
@@ -231,129 +213,76 @@ function validateThemeData(
     featured.length !== 1
   ) {
     throw new Error(
-      `${theme.titleEnglish}: exactly one required Featured Word is required.`,
+      `${theme.titleEnglish}: exactly one Featured Word is required.`,
     );
   }
 
-  let tokenCount = 0;
+  const totalTokens =
+    theme.targets.reduce(
+      (total, target) =>
+        total +
+        target.tokens.length,
+      0,
+    );
 
-  for (
-    const target of
-    theme.targets
-  ) {
-    if (!target.id) {
-      throw new Error(
-        `${theme.titleEnglish}: target missing id.`,
-      );
-    }
-
-    if (!target.word) {
-      throw new Error(
-        `${theme.titleEnglish}: target missing Sanskrit word.`,
-      );
-    }
-
-    if (
-      !Array.isArray(
-        target.tokens,
-      ) ||
-      target.tokens.length ===
-        0
-    ) {
-      throw new Error(
-        `${theme.titleEnglish}: ${target.word} is missing tokens.`,
-      );
-    }
-
-    if (
-      target.tokens.join('') !==
-      target.word
-    ) {
-      throw new Error(
-        `${theme.titleEnglish}: ${target.word} tokens do not spell the word.`,
-      );
-    }
-
-    if (
-      !target.audioPath.startsWith(
-        'https://zat.am/bp26/',
-      )
-    ) {
-      throw new Error(
-        `${theme.titleEnglish}: ${target.word} has an invalid audio URL.`,
-      );
-    }
-
-    tokenCount +=
-      target.tokens.length;
-  }
-
-  const cells =
+  const boardCells =
     theme.rows *
     theme.cols;
 
   if (
-    tokenCount !== cells
+    totalTokens !==
+    boardCells
   ) {
     throw new Error(
-      `${theme.titleEnglish}: ${tokenCount} tokens cannot fill ${cells} cells.`,
+      `${theme.titleEnglish}: ${totalTokens} tokens cannot fill ${boardCells} cells.`,
     );
   }
 }
 
 export async function loadThemes(): Promise<{
   themes: ThemeData[];
-  source: 'json';
+  source: 'firestore';
 }> {
-  const response =
-    await fetch(
-      './data/themes.json',
-      {
-        cache:
-          'no-store',
-      },
+  const snapshot =
+    await getDocs(
+      collection(
+        db,
+        'strands-themes',
+      ),
     );
 
-  if (!response.ok) {
+  if (snapshot.empty) {
     throw new Error(
-      `Could not load themes.json (${response.status}).`,
-    );
-  }
-
-  const raw =
-    await response.json();
-
-  if (
-    !Array.isArray(raw)
-  ) {
-    throw new Error(
-      'themes.json must contain an array.',
+      'No Sanskrit Strands themes were found in Firestore.',
     );
   }
 
   const themes =
-    raw
-      .map(
-        (
-          theme: any,
-        ) =>
-          normalizeTheme(
-            theme,
-          ),
+    snapshot.docs
+      .map((document) =>
+        normalizeTheme({
+          ...document.data(),
+
+          // Use the Firestore document ID
+          // if id is ever missing.
+          id:
+            document.data()
+              .id ||
+            document.id,
+        }),
       )
       .sort(
-        (
-          a,
-          b,
-        ) =>
-          (a.order ??
-            0) -
-          (b.order ??
-            0),
+        (a, b) =>
+          (a.order ?? 0) -
+          (b.order ?? 0),
       );
+
+  console.log(
+    `Loaded ${themes.length} themes from Firestore.`,
+  );
 
   return {
     themes,
-    source: 'json',
+    source: 'firestore',
   };
 }
